@@ -2,12 +2,12 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/aanpleenko/.oh-my-zsh
+  export ZSH=/home/qa/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pmcgee"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -58,9 +58,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-)
+plugins=(git yarn npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -118,6 +116,7 @@ alias edit='subl'
 #alias hosts='sudo subl /private/etc/hosts'
 alias hosts='sudo subl /etc/hosts'
 alias zshrc='sudo subl ~/.zshrc'
+alias lserver='light-server -s . -p 7000'
 alias sources='source ~/.zshrc'
 
 alias ..='cd ..'
@@ -158,7 +157,7 @@ cmt() {
 }
 
 # git merge default branch
-gmdb(){
+gitsync(){
 	defaultBranch=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
 	currentBranch=$(git rev-parse --abbrev-ref HEAD)
 	changeFiles=false
@@ -195,18 +194,25 @@ gmdb(){
 	fi
 }
 
-# copyComponents(){
+copyComponents(){
 # 	# rm -rf ~/Projects/dasreda/portal/node_modules/eco-components-portal/src
 # 	# cp -avr ~/Projects/dasreda/eco-components-portal/src ~/Projects/dasreda/portal/node_modules/eco-components-portal
 # 	# make build_modules
 # 	#
 # 	#
-# 	cd ~/Projects/dasreda/eco-components-portal
-# 	./node_modules/.bin/babel src/ -d dist --copy-files
-# 	rm -rf ~/Projects/dasreda/portal/node_modules/eco-components-portal/dist
-# 	cp -avr ~/Projects/dasreda/eco-components-portal/dist ~/Projects/dasreda/portal/node_modules/eco-components-portal
-# 	cd ~/Projects/dasreda/portal
-# }
+
+    cd ~/project/dasreda/eco-components-portal
+    ./node_modules/.bin/babel src/ -d dist --copy-files
+    rm -rf ~/project/dasreda/portal/node_modules/eco-components-portal/dist
+    cp -avr ~/project/dasreda/eco-components-portal/dist ~/project/dasreda/portal/node_modules/eco-components-portal
+    cd ~/project/dasreda/portal
+
+    cd ~/project/dasreda/eco-components-portal
+	./node_modules/.bin/babel src/ -d dist --copy-files
+	rm -rf ~/project/dasreda/eco-admin/node_modules/eco-components-portal/dist
+	cp -avr ~/project/dasreda/eco-components-portal/dist ~/project/dasreda/eco-admin/node_modules/eco-components-portal
+	cd ~/project/dasreda/portal
+}
 
 # User configuration
 
