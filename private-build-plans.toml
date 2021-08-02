@@ -30,4 +30,4 @@ no-ligation = true
     ascii-single-quote = "straight"
     ascii-grave = "straight"
     punctuation-dot = "round"
-	seven = "straight-serifless"
+	  seven = "straight-serifless"
