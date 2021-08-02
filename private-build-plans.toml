@@ -1,0 +1,33 @@
+[buildPlans.iosevka]
+family = "Iosevka"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+no-ligation = true
+
+  [buildPlans.iosevka.variants]
+  inherits = "ss12"
+
+    [buildPlans.iosevka.variants.design]
+    capital-g = "toothless-rounded-serifless-hooked"
+    capital-i = "serifed"
+    capital-s = "serifless"
+    a = "double-storey-serifless"
+    g = "double-storey"
+    cyrl-che = "standard"
+    cyrl-capital-u = "cursive"
+    zero = "slashed"
+    one = "nobase"
+    two = "curly-neck"
+    four = "closed-non-crossing"
+    tilde = "low"
+    asterisk = "hex-low"
+    paren = "normal"
+    brace = "straight"
+    dollar = "through"
+    percent = "rings-continuous-slash"
+    bar = "natural-slope"
+    ascii-single-quote = "straight"
+    ascii-grave = "straight"
+    punctuation-dot = "round"
+	seven = "straight-serifless"
