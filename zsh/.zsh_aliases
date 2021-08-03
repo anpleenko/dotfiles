@@ -1,0 +1,60 @@
+current_branch_name(){
+  git branch | sed -n -e 's/^\* \(.*\)/\1/p'
+}
+
+alias log="git log --graph --abbrev-commit --decorate  --first-parent --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' ${current_branch_name}"
+
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias mkdir='mkdir -pv'
+alias ll='ls -al'
+alias sources='source ~/.zshrc'
+del() { rm -rf "$*" }
+alias c='clear'
+alias editzsh='edit ~/.zshrc'
+alias editgit='code ~/.gitconfig'
+alias sysupdate='sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo apt autoclean -y'
+
+## Switch repos
+alias h='cd ~/'
+alias w='cd ~/project'
+alias e='cd ~/EDU'
+
+# GIT Aliases
+alias st='git status'
+alias gl='git pull'
+alias gp='git push'
+alias gu='git stash; git pull; git stash apply'
+alias gs='git stash'
+alias gsu='git stash -u'
+alias gsa='git stash apply'
+alias gsp='git stash pop'
+alias gclean='git clean -xdf'
+cm() { git add -A; git commit -m "$*" }
+cmt() { git add -A; git commit -m "$*"; git push }
+
+# delete merged branch
+alias dmb="git branch --merged | grep -v '*' | xargs git branch -D"
+
+# https://github.com/driesvints/dotfiles/blob/main/aliases.zsh
+alias pop="git stash pop"
+alias stash="git stash -u"
+alias unstage="git restore --staged ."
+alias diff="git diff"
+alias pull="git pull"
+alias push="git push --no-verify"
+alias fetch='git fetch'
+alias fp='fetch && pull'
+alias resolve="git add -A && git commit --no-edit"
+
+# Remove all unused images not just dangling ones
+# Do not prompt for confirmation
+# Prune volumes
+dclean(){ docker system prune --volumes --all --force }
+
+# spaceship configs
+SPACESHIP_GIT_STATUS_SHOW="false"
+SPACESHIP_PACKAGE_SHOW="false"
+SPACESHIP_NODE_SHOW="false"
+SPACESHIP_DIR_TRUNC_REPO="false"
+SPACESHIP_DIR_TRUNC="0"

@@ -1,0 +1,25 @@
+[user]
+    name = Anpleenko Alexander
+    email = avanpleenko@gmail.com
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+    eol = lf
+    autocrlf = input
+[mergetool]
+    prompt = false
+[difftool]
+    prompt = false
+[fetch]
+    prune = true
+[pull]
+    rebase = false
+[push]
+    default = current
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[init]
+    defaultBranch = main
