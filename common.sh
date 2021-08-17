@@ -12,16 +12,16 @@ sudo apt install -y mc curl wget htop zip tar unzip cifs-utils autofs autoconf
 ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
 
 cd git
-./git/install.sh
+./install.sh
 
 cd vim
-./vim/install.sh
+./install.sh
 
 cd tmux
-./tmux/install.sh
+./install.sh
 
 cd zsh
-./zsh/install.sh
+./install.sh
 
 ./install_docker.sh
 ./install_nodejs_16.sh
