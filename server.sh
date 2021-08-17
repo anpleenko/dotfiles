@@ -2,7 +2,7 @@
 
 ./common.sh
 
-sudo apt install -y maven ffmpeg gconf-service openssl dpkg-dev build-essential gnupg2 gcc \
+sudo apt install -y ffmpeg gconf-service openssl dpkg-dev build-essential gnupg2 gcc \
   cmake ca-certificates fonts-liberation lsb-release xdg-utils
 
 sudo apt install -y libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 \
