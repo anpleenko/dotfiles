@@ -13,15 +13,19 @@ ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 
 
 cd git
 ./install.sh
+cd ..
 
 cd vim
 ./install.sh
+cd ..
 
 cd tmux
 ./install.sh
+cd ..
 
 cd zsh
 ./install.sh
+cd ..
 
 ./install_docker.sh
 ./install_nodejs_16.sh
