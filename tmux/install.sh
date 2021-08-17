@@ -2,4 +2,4 @@
 
 sudo apt install -y tmux
 
-cp -vf  .tmux.conf ~/ .tmux.conf
+yes | cp -vf  .tmux.conf ~/ .tmux.conf
