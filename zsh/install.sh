@@ -14,3 +14,5 @@ ln -s "~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme" "~/.oh-m
 yes | cp -vf .zshrc ~/
 yes | cp -vf .zsh_aliases ~/
 yes | cp -vf .zsh_work_aliases ~/
+
+cd ..
