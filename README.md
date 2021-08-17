@@ -1,4 +1,4 @@
-# My dotfiles for linux
+# My dotfiles for linux (Ubuntu)
 
 
 ## Install on desktop
