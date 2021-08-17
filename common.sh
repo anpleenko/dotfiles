@@ -7,7 +7,7 @@ sudo apt autoremove -y
 
 mkdir -pv ~/.bin
 
-sudo apt install -y mc curl wget htop zip tar unzip cifs-utils autofs autoconf
+sudo apt install -y mc curl wget htop zip tar unzip cifs-utils autofs autoconf ffmpeg
 
 ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
 
