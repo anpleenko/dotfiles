@@ -3,5 +3,3 @@
 sudo apt install -y tmux
 
 yes | cp -vf .tmux.conf ~/
-
-cd ..
