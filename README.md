@@ -7,7 +7,8 @@
 cd /tmp
 sudo apt update && sudo apt install -y git
 git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles
-./dotfiles/desktop.sh
+cd dotfiles
+./desktop.sh
 ```
 
 ## Install on server
@@ -16,5 +17,6 @@ git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles
 cd /tmp
 sudo apt update && sudo apt install -y git
 git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles
-./dotfiles/server.sh
+cd dotfiles
+./server.sh
 ```
