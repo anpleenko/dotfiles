@@ -5,4 +5,4 @@
 
 sudo apt install -y vim
 
-yes | cp -vf  .vimrc ~/ .vimrc
+yes | cp -vf .vimrc ~/

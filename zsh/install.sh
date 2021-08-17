@@ -11,6 +11,6 @@ rm -rf ~/.oh-my-zsh/custom/themes/spaceship-prompt
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git ~/.oh-my-zsh/custom/themes/spaceship-prompt --depth=1
 ln -s "~/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme" "~/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
-yes | cp -vf .zshrc ~/.zshrc
-yes | cp -vf .zsh_aliases ~/.zsh_aliases
-yes | cp -vf .zsh_work_aliases ~/.zsh_work_aliases
+yes | cp -vf .zshrc ~/
+yes | cp -vf .zsh_aliases ~/
+yes | cp -vf .zsh_work_aliases ~/
