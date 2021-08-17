@@ -5,8 +5,7 @@
 
 ```bash
 cd /tmp
-sudo apt update
-sudo apt install git
+sudo apt update && sudo apt install -y git
 git clone git@github.com:anpleenko/linux-dotfiles.git dotfiles
 ./dotfiles/desktop.sh
 ```
@@ -15,8 +14,7 @@ git clone git@github.com:anpleenko/linux-dotfiles.git dotfiles
 
 ```bash
 cd /tmp
-sudo apt update
-sudo apt install git
+sudo apt update && sudo apt install -y git
 git clone git@github.com:anpleenko/linux-dotfiles.git dotfiles
 ./dotfiles/server.sh
 ```
