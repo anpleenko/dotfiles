@@ -9,4 +9,4 @@ sudo apt-get install sublime-text sublime-merge
 
 rm -rf ~/.config/sublime-text-3
 cd ~/.config/
-git clone git@github.com:anpleenko/sublime-text.git sublime-text-3
+git clone https://github.com/anpleenko/sublime-text.git sublime-text-3
