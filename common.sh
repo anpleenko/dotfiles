@@ -11,9 +11,16 @@ sudo apt install -y mc curl wget htop zip tar unzip cifs-utils autofs autoconf
 
 ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
 
+cd git
 ./git/install.sh
+
+cd vim
 ./vim/install.sh
+
+cd tmux
 ./tmux/install.sh
+
+cd zsh
 ./zsh/install.sh
 
 ./install_docker.sh
