@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y default-jre default-jdk
+sudo apt install -y default-jre default-jdk maven
 
 curl -o allure-2.14.0.tgz -Ls https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.tgz
 
