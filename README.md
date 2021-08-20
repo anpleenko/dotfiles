@@ -6,7 +6,7 @@
 ```bash
 cd /tmp
 sudo apt update && sudo apt install -y git
-git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles
+git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles --depth=1
 cd dotfiles
 ./desktop.sh
 ```
@@ -16,7 +16,7 @@ cd dotfiles
 ```bash
 cd /tmp
 sudo apt update && sudo apt install -y git
-git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles
+git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles --depth=1
 cd dotfiles
 ./server.sh
 ```
