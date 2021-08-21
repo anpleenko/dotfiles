@@ -9,3 +9,6 @@ sudo pip install --upgrade pip
 sudo pip install docker-compose
 sudo pip install ansible
 sudo pip install bpytop
+
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
