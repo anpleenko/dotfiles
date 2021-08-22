@@ -2,8 +2,8 @@
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
-        src: linux-dotfiles.zip
-        dest: /usr/src/storage/linux-dotfiles.zip
+        src: linux-dotfiles.tgz
+        dest: /usr/src/storage/linux-dotfiles.tgz
         owner: deploy
         group: deploy
-        mode: '0644'
+        mode: "0644"

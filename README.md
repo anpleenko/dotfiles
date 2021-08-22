@@ -17,3 +17,9 @@ cd /tmp && git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles --
 ```bash
 cd /tmp && git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles --depth=1 && cd dotfiles && ./server.sh
 ```
+
+```bash
+curl -o linux-dotfiles.tgz -Ls https://storage.vaeum.com/linux-dotfiles.tgz
+
+tar -zxvf linux-dotfiles.tgz -C linux-dotfiles
+```
