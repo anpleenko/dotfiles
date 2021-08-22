@@ -19,7 +19,8 @@ cd /tmp && git clone https://github.com/anpleenko/linux-dotfiles.git dotfiles --
 ```
 
 ```bash
-curl -o linux-dotfiles.tgz -Ls https://storage.vaeum.com/linux-dotfiles.tgz
-
-tar -zxvf linux-dotfiles.tgz -C linux-dotfiles
+cd /tmp && curl -o linux-dotfiles.tgz -Ls https://storage.vaeum.com/linux-dotfiles.tgz && tar xvf linux-dotfiles.tgz --one-top-level=linux-dotfiles -C /tmp && ./desktop.sh
+```
+```bash
+cd /tmp && curl -o linux-dotfiles.tgz -Ls https://storage.vaeum.com/linux-dotfiles.tgz && tar xvf linux-dotfiles.tgz --one-top-level=linux-dotfiles -C /tmp && ./server.sh
 ```
