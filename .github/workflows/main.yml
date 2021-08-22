@@ -20,6 +20,7 @@ jobs:
       - name: Generate zip file
         run: |
           git archive --format tar --output linux-dotfiles.tgz main
+          ls -a
 
       - name: Play Ansible Playbook
         run: ansible-playbook -i ansible/inventory.ini ansible/sync.yml
