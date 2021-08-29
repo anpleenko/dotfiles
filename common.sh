@@ -24,8 +24,6 @@ sudo apt install -y mc \
   maven \
   ffmpeg
 
-ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
-
 ./install_zsh.sh
 ./install_git.sh
 ./install_docker.sh
