@@ -24,16 +24,6 @@ sudo apt install -y mc \
   maven \
   ffmpeg
 
-# install git
-sudo add-apt-repository ppa:git-core/ppa -y
-sudo apt update
-sudo apt install -y git
-
-# install git-lfs
-curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
-sudo apt -y install git-lfs
-git lfs install
-
 ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
 
 ./install_zsh.sh
