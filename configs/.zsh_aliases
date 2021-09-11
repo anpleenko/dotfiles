@@ -23,8 +23,7 @@ alias e='cd ~/EDU'
 # GIT Aliases
 alias st='git status'
 alias gl='git pull'
-# alias gp='git push'
-gp(){ [[ $(git config "branch.$(git rev-parse --abbrev-ref HEAD).merge") = '' ]] && git push -u || git push }
+alias gp='git push'
 alias gu='git stash; git pull; git stash apply'
 alias gs='git stash'
 alias gsu='git stash -u'
@@ -43,9 +42,7 @@ alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias diff="git diff"
 alias pull="git pull"
-# alias push="git push --no-verify"
-# https://stackoverflow.com/a/19018227
-push(){ [[ $(git config "branch.$(git rev-parse --abbrev-ref HEAD).merge") = '' ]] && git push -u --no-verify || git push --no-verify }
+alias push="git push --no-verify"
 alias fetch='git fetch'
 alias fp='fetch && pull'
 alias resolve="git add -A && git commit --no-edit"
