@@ -1,9 +1,3 @@
-current_branch_name(){
-  git branch | sed -n -e 's/^\* \(.*\)/\1/p'
-}
-
-alias log="git log --graph --abbrev-commit --decorate  --first-parent --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' ${current_branch_name}"
-
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias mkdir='mkdir -pv'
@@ -11,41 +5,36 @@ alias ll='ls -al'
 alias sources='source ~/.zshrc'
 del() { rm -rf "$*" }
 alias c='clear'
-alias editzsh='edit ~/.zshrc'
-alias editgit='code ~/.gitconfig'
+alias editzsh='vim ~/.zshrc'
+alias editgit='vim ~/.gitconfig'
 alias sysupdate='sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo apt autoclean -y'
 
 ## Switch repos
 alias h='cd ~/'
 alias w='cd ~/project'
-alias e='cd ~/EDU'
 
 # GIT Aliases
 alias st='git status'
-alias gl='git pull'
-alias gp='git push'
-alias gu='git stash; git pull; git stash apply'
-alias gs='git stash'
-alias gsu='git stash -u'
-alias gsa='git stash apply'
-alias gsp='git stash pop'
+alias gp="git push"
+alias push="git push --no-verify"
+alias done="git push origin HEAD"
+alias log="git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30"
 alias gclean='git clean -xdf'
+alias pop="git stash pop"
+alias stash="git stash -u"
+alias apply='git stash apply'
+alias prune='git prune'
+alias pull="git pull"
+alias fetch='git fetch --prune'
+alias fp='fetch && pull'
+alias resolve="git add -A && git commit --no-edit"
+
 cm() { git add -A; git commit -m "$*" }
 cmt() { git add -A; git commit -m "$*"; git push }
+track() { git switch -c "$1" && git push --set-upstream origin "$1" }
 
 # delete merged branch
 alias dmb="git branch --merged | grep -v '*' | xargs git branch -D"
-
-# https://github.com/driesvints/dotfiles/blob/main/aliases.zsh
-alias pop="git stash pop"
-alias stash="git stash -u"
-alias unstage="git restore --staged ."
-alias diff="git diff"
-alias pull="git pull"
-alias push="git push --no-verify"
-alias fetch='git fetch'
-alias fp='fetch && pull'
-alias resolve="git add -A && git commit --no-edit"
 
 # Remove all unused images not just dangling ones
 # Do not prompt for confirmation
