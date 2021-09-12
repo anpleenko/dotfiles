@@ -12,6 +12,4 @@ sudo apt install -y libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 
   libappindicator1 libnss3 libgbm-dev libatk-bridge2.0-0 libgtk-3-dev \
   libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev
 
-ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
-
 ./postinstall.sh
