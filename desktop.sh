@@ -12,6 +12,10 @@ sudo apt install -y gnome-tweak-tool \
 
 ./install_sublime_products.sh
 
+# копируем шрифты
 cd fonts && ./install.sh && cd ..
+
+# переносим настройки для Double Commander
+mkdir -pv ~/.config/doublecmd && yes | mv -vf  ~/doublecmd.xml ~/.config/doublecmd
 
 ./postinstall.sh
