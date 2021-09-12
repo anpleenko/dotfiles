@@ -12,6 +12,6 @@ sudo apt install -y gnome-tweak-tool \
 
 ./install_sublime_products.sh
 
-cd fonts && ./install.sh
+cd fonts && ./install.sh && cd ..
 
 ./postinstall.sh
