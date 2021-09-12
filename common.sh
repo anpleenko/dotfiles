@@ -5,6 +5,9 @@ sudo apt upgrade -y
 sudo apt dist-upgrade -y
 sudo apt autoremove -y
 
+# создаем папку для бинарников, папка находиться в PATH
+mkdir -pv ~/.local/bin
+
 sudo apt install -y mc \
   curl \
   wget \
