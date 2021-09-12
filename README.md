@@ -1,4 +1,4 @@
-# My dotfiles for linux (Ubuntu 20.04)
+# My dotfiles for linux (Ubuntu 20.04, PopOS! 21.04)
 
 ## Install on desktop with curl
 
