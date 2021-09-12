@@ -7,7 +7,8 @@ sudo apt install -y gnome-tweak-tool \
     vlc \
     rhythmbox \
     simplescreenrecorder \
-    doublecmd-gtk
+    doublecmd-gtk \
+    synaptic
 
 ./install_sublime_products.sh
 
