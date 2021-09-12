@@ -37,3 +37,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 
 # устанавливаем использование локального времени
 timedatectl set-local-rtc 1 --adjust-system-clock
+
+# создаем ssh ключ
+ssh-keygen -q -t rsa -C "temp@ssh.key" -b 4096 -N '' -f ~/.ssh/id_rsa <<<y 2>&1 >/dev/null
