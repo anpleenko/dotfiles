@@ -1,32 +1,32 @@
-alias cp='cp -iv'
-alias mv='mv -iv'
-alias mkdir='mkdir -pv'
-alias ll='ls -al'
-alias sources='source ~/.zshrc'
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias mkdir="mkdir -pv"
+alias ll="ls -al"
+alias sources="source ~/.zshrc"
 del() { rm -rf "$*" }
-alias c='clear'
-alias editzsh='vim ~/.zshrc'
-alias editgit='vim ~/.gitconfig'
-alias sysupdate='sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo apt autoclean -y'
+alias c="clear"
+alias editzsh="vim ~/.zshrc"
+alias editgit="vim ~/.gitconfig"
+alias sysupdate="sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo apt autoclean -y"
 
 # Switch repos
-alias h='cd ~/'
-alias w='cd ~/project'
+alias h="cd ~/"
+alias w="cd ~/project"
 
 # GIT Aliases
-alias st='git status'
+alias st="git status"
 alias gp="git push"
 alias push="git push --no-verify"
 alias done="git push origin HEAD"
-alias log="git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30"
-alias gclean='git clean -xdf'
+alias log="git log --pretty=format:'%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]'"
+alias gclean="git clean -xdf"
 alias pop="git stash pop"
 alias stash="git stash -u"
-alias apply='git stash apply'
-alias prune='git prune'
+alias apply="git stash apply"
+alias prune="git prune"
 alias pull="git pull"
-alias fetch='git fetch --prune'
-alias fp='fetch && pull'
+alias fetch="git fetch --prune"
+alias fp="fetch && pull"
 alias resolve="git add -A && git commit --no-edit"
 alias track="git push -u --no-verify"
 
@@ -34,7 +34,7 @@ cm() { git add -A; git commit -m "$*" }
 cmt() { git add -A; git commit -m "$*"; git push }
 
 # delete merged branch
-alias dmb="git branch --merged | grep -v '*' | xargs git branch -D"
+alias dmb="git branch --merged | grep -v "*" | xargs git branch -D"
 
 # Remove all unused images not just dangling ones
 # Do not prompt for confirmation
