@@ -28,10 +28,10 @@ alias pull="git pull"
 alias fetch='git fetch --prune'
 alias fp='fetch && pull'
 alias resolve="git add -A && git commit --no-edit"
+alias track="git push --set-upstream origin $(git branch --show-current) --no-verify"
 
 cm() { git add -A; git commit -m "$*" }
 cmt() { git add -A; git commit -m "$*"; git push }
-track() { git switch -c "$1" && git push --set-upstream origin "$1" }
 
 # delete merged branch
 alias dmb="git branch --merged | grep -v '*' | xargs git branch -D"
