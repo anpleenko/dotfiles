@@ -9,7 +9,7 @@ alias editzsh='vim ~/.zshrc'
 alias editgit='vim ~/.gitconfig'
 alias sysupdate='sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y; sudo apt autoclean -y'
 
-## Switch repos
+# Switch repos
 alias h='cd ~/'
 alias w='cd ~/project'
 
