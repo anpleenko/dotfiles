@@ -28,7 +28,7 @@ alias pull="git pull"
 alias fetch='git fetch --prune'
 alias fp='fetch && pull'
 alias resolve="git add -A && git commit --no-edit"
-alias track="git push --set-upstream origin $(git branch --show-current) --no-verify"
+alias track="git push -u --no-verify"
 
 cm() { git add -A; git commit -m "$*" }
 cmt() { git add -A; git commit -m "$*"; git push }
