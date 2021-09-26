@@ -26,7 +26,7 @@ sudo apt install -y mc \
   ffmpeg
 
 ./install_zsh.sh
-./install_git.sh
+./install_git-lfs.sh
 ./install_docker.sh
 ./install_nodejs_16.sh
 ./install_python_3.sh
