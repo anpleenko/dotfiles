@@ -20,6 +20,8 @@ sudo apt install -y tar unzip zip
 ./install_python_3.sh
 ./install_allure.sh
 
+git lfs install
+
 # copy configs
 yes | cp -vf configs/.* ~/
 
