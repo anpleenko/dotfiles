@@ -8,24 +8,11 @@ sudo apt autoremove -y
 # создаем папку для бинарников, папка находиться в PATH
 mkdir -pv ~/.local/bin
 
-sudo apt install -y mc \
-  curl \
-  wget \
-  tmux \
-  vim \
-  htop \
-  zip \
-  tar \
-  unzip \
-  cifs-utils \
-  autofs \
-  autoconf \
-  default-jre \
-  default-jdk \
-  maven \
-  ffmpeg \
-  git \
-  git-lfs
+sudo apt install -y autoconf autofs cifs-utils ffmpeg htop mc tmux vim
+sudo apt install -y wget curl
+sudo apt install -y git git-lfs
+sudo apt install -y maven default-jdk default-jre
+sudo apt install -y tar unzip zip
 
 ./install_zsh.sh
 ./install_docker.sh
