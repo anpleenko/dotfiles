@@ -23,10 +23,11 @@ sudo apt install -y mc \
   default-jre \
   default-jdk \
   maven \
-  ffmpeg
+  ffmpeg \
+  git \
+  git-lfs
 
 ./install_zsh.sh
-./install_git-lfs.sh
 ./install_docker.sh
 ./install_nodejs_16.sh
 ./install_python_3.sh
