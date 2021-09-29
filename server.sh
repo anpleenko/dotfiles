@@ -2,6 +2,8 @@
 
 ./common.sh
 
+rm ~/doublecmd.xml
+
 sudo apt install -y gconf-service openssl dpkg-dev build-essential gnupg2 gcc \
   cmake ca-certificates fonts-liberation lsb-release xdg-utils
 
