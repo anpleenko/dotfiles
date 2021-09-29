@@ -23,7 +23,7 @@ sudo apt install -y tar unzip zip
 git lfs install
 
 # copy configs
-yes | cp -vf configs/.* ~/
+yes | cp -vf configs/* ~/
 
 # увеличиваем колличество filewatchers
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
