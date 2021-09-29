@@ -6,6 +6,7 @@ echo yarn v$(yarn --version)
 echo npm v$(npm --version)
 echo youtube-dl v$(youtube-dl --version )
 git --version
+git-lfs --version
 tmux -V
 java --version
 python --version
