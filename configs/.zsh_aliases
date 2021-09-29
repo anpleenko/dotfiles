@@ -34,7 +34,7 @@ cm() { git add -A; git commit -m "$*" }
 cmt() { git add -A; git commit -m "$*"; git push }
 
 # delete merged branch
-alias dmb="git branch --merged | grep -v "*" | xargs git branch -D"
+alias dmb="git branch --merged | grep -v \"*\" | xargs git branch -D"
 
 # Remove all unused images not just dangling ones
 # Do not prompt for confirmation
