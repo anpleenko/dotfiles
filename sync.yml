@@ -7,3 +7,10 @@
         owner: deploy
         group: deploy
         mode: "0644"
+    - name: Copy fonts with owner and permissions
+      ansible.builtin.copy:
+        src: fonts.tar.gz
+        dest: /usr/src/storage/fonts.tar.gz
+        owner: deploy
+        group: deploy
+        mode: "0644"

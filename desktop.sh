@@ -13,6 +13,8 @@ sudo apt install -y gnome-tweak-tool \
 ./install_sublime_products.sh
 
 # копируем шрифты
+wget https://storage.vaeum.com/fonts.tar.gz
+tar -xzvf fonts.tar.gz
 cd fonts && ./install.sh && cd ..
 
 # переносим настройки для Double Commander

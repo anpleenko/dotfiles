@@ -29,7 +29,9 @@ jobs:
           rm -rf dotfiles/.gockerignore
           rm -rf dotfiles/Dockerfile
           rm -rf dotfiles/README.md
+          rm -rf dotfiles/fonts
           tar czf linux-dotfiles.tar.gz dotfiles
+          tar czf fonts.tar.gz fonts
 
       - name: Play Ansible Playbook
         run: ansible-playbook -i inventory.ini sync.yml

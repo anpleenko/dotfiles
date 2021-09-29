@@ -11,3 +11,9 @@ cd /tmp && wget https://storage.vaeum.com/linux-dotfiles.tar.gz && tar -xzvf lin
 ```bash
 cd /tmp && wget https://storage.vaeum.com/linux-dotfiles.tar.gz && tar -xzvf linux-dotfiles.tar.gz && cd dotfiles && ./server.sh
 ```
+
+## Install only configs
+
+```bash
+cd /tmp && wget https://storage.vaeum.com/linux-dotfiles.tar.gz && tar -xzvf linux-dotfiles.tar.gz && cd dotfiles && yes | cp -vfa configs/. ~/
+```
