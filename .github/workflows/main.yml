@@ -20,6 +20,16 @@ jobs:
       - name: Generate zip file
         run: |
           git archive --format tar --output linux-dotfiles.tgz main
+          mkdir dotfiles
+          tar xvf linux-dotfiles.tgz -C dotfiles
+          rm -rf linux-dotfiles.tgz
+          rm -rf dotfiles/.github
+          rm -rf dotfiles/inventory.ini
+          rm -rf dotfiles/sync.yml
+          rm -rf dotfiles/.gockerignore
+          rm -rf dotfiles/Dockerfile
+          rm -rf dotfiles/README.md
+          tar czf linux-dotfiles.tar.gz dotfiles
 
       - name: Play Ansible Playbook
         run: ansible-playbook -i inventory.ini sync.yml
