@@ -2,7 +2,7 @@
 
 ./common.sh
 
-sudo apt install -y gnome-tweak-tool \
+sudo apt install -y gnome-tweaks \
     chrome-gnome-shell \
     vlc \
     rhythmbox \
