@@ -1,0 +1,11 @@
+name: Install dotfiles
+
+on: push
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dotfiles
+        run: sh -c "$(wget https://raw.githubusercontent.com/anpleenko/linux-dotfiles/main/server.sh -O -)"

@@ -1,0 +1,24 @@
+name: Create release
+
+on: push
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create artifacts folder
+        run: mkdir artifacts
+
+      - name: Create tar file
+        run: tar -cvzf artifacts/dotfiles.tgz --exclude-vcs --exclude-vcs-ignores --exclude=./artifacts .
+
+      - name: Release
+        uses: "marvinpinto/action-automatic-releases@v1.2.1"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: latest
+          files: "artifacts/dotfiles.tgz"

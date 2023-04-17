@@ -1,0 +1,31 @@
+[includeIf "gitdir/i:projects/personal/"]
+    path = .gitconfig-personal
+[includeIf "gitdir/i:projects/work/"]
+    path = .gitconfig-work
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+    eol = lf
+    autocrlf = input
+[fetch]
+    prune = true
+[pull]
+    rebase = false
+    ff = yes
+[push]
+    default = current
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[init]
+    defaultBranch = main
+[merge]
+    ff = no
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
