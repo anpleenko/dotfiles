@@ -8,17 +8,39 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set git user name
+        run: git config user.name "github-actions[bot]"
+
+      - name: Set git user email
+        run: git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Create artifacts folder
         run: mkdir artifacts
 
       - name: Create tar file
         run: tar -cvzf artifacts/dotfiles.tgz --exclude-vcs --exclude-vcs-ignores --exclude=./artifacts .
 
-      - name: Release
-        uses: "marvinpinto/action-automatic-releases@v1.2.1"
+      - name: Set current date as env variable
+        run: echo "date=$(date +'%d-%m-%Y-%Hh-%Mm-%Ss')" >> $GITHUB_ENV
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: false
-          title: latest
-          files: "artifacts/dotfiles.tgz"
+          find: "<tag>"
+          replace: v${{ env.date }}
+          include: ".github/release.md"
+
+      - name: Move README file
+        run: rm README.md && mv .github/release.md README.md
+
+      - name: Push changes to repository
+        run: git add README.md && git commit -m "update tag in README.md" && git push origin && git push --tags
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ env.date }}
+          body_path: README.md
+          files: artifacts/dotfiles.tgz

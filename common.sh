@@ -28,6 +28,9 @@ sudo apt install -y \
   wget \
   zip
 
+# нужно для запуска appimage программ
+sudo apt install libfuse2
+
 # copy configs
 yes | cp -vfa configs/. ~/
 

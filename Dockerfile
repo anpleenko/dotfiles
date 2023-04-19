@@ -10,4 +10,4 @@ RUN apt-get install -y tzdata
 
 WORKDIR /tmp/dotfiles
 COPY . /tmp/dotfiles
-RUN ./install_server.sh
+RUN ./server.sh

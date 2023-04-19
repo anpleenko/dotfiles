@@ -1,13 +1,22 @@
 #!/bin/bash
 
-cd /tmp
+./common.sh
 
-mkdir dotfiles
+sudo apt install -y \
+  chrome-gnome-shell \
+  doublecmd-gtk \
+  gnome-shell-extension-manager \
+  gnome-tweaks \
+  gthumb \
+  rhythmbox \
+  simplescreenrecorder \
+  synaptic \
+  tilix \
+  vlc
 
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/latest/dotfiles.tgz
+./install_sublime_products.sh
 
-sudo tar -zxvf dotfiles.tgz -C /tmp/dotfiles
+# устанавливаем тему one dark в терминал GNOME
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh)"
 
-cd /tmp/dotfiles
-
-./install_desktop.sh
+./postinstall.sh
