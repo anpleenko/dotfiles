@@ -12,11 +12,14 @@ sudo apt install -y \
   simplescreenrecorder \
   synaptic \
   tilix \
-  vlc
+  vlc \
+  python3-pip \
+  python3-nautilus
 
 ./install_sublime_products.sh
 
-# устанавливаем тему one dark в терминал GNOME
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/denysdovhan/gnome-terminal-one/master/one-dark.sh)"
+# добавляем пункт запуска tilix в nautilus
+pip install --user nautilus-open-any-terminal
+nautilus -q
 
 ./postinstall.sh
