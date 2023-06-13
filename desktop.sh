@@ -16,6 +16,9 @@ sudo apt install -y \
   python3-pip \
   python3-nautilus
 
+# работа с HEIC
+sudo apt install -y heif-gdk-pixbuf heif-thumbnailer libheif1:amd64 gimagereader gpicview converseen
+
 ./install_sublime_products.sh
 
 # добавляем пункт запуска tilix в nautilus
