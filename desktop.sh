@@ -22,8 +22,4 @@ sudo apt install -y heif-gdk-pixbuf heif-thumbnailer libheif1:amd64 gimagereader
 
 ./install_sublime_products.sh
 
-# добавляем пункт запуска tilix в nautilus
-pip install --user nautilus-open-any-terminal
-nautilus -q
-
 ./postinstall.sh
