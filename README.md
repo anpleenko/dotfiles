@@ -3,7 +3,7 @@
 ```bash
 cd /tmp
 mkdir dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v13-06-2023-06h-53m-26s/dotfiles.tgz
+curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v16-06-2023-08h-11m-58s/dotfiles.tgz
 sudo tar -zxvf dotfiles.tgz -C /tmp/dotfiles
 cd /tmp/dotfiles
 ./desktop.sh
@@ -14,7 +14,7 @@ cd /tmp/dotfiles
 ```bash
 cd /tmp
 mkdir dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v13-06-2023-06h-53m-26s/dotfiles.tgz
+curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v16-06-2023-08h-11m-58s/dotfiles.tgz
 sudo tar -zxvf dotfiles.tgz -C /tmp/dotfiles
 cd /tmp/dotfiles
 ./server.sh
