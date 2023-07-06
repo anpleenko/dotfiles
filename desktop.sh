@@ -22,9 +22,8 @@ sudo apt install -y \
 sudo apt install -y heif-gdk-pixbuf heif-thumbnailer libheif1:amd64 gimagereader gpicview converseen imagemagick
 
 # obs-studio 
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt update
-sudo apt-get update && sudo apt-get install obs-studio
+sudo add-apt-repository -y ppa:obsproject/obs-studio
+sudo apt update -y && sudo apt install -y obs-studio
 
 ./install_sublime_products.sh
 ./install_kitty.sh
