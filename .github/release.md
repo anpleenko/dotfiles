@@ -4,7 +4,7 @@
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
  && wget https://github.com/anpleenko/linux-dotfiles/releases/download/<tag>/dotfiles.tgz \
- && sudo tar -zxvf dotfiles.tgz -C . \
+ && tar -zxvf dotfiles.tgz -C . \
  && ./desktop.sh \
  && rm -rf ~/dotfiles
 ```
@@ -15,7 +15,7 @@ mkdir -p ~/dotfiles \
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
  && wget https://github.com/anpleenko/linux-dotfiles/releases/download/<tag>/dotfiles.tgz \
- && sudo tar -zxvf dotfiles.tgz -C . \
+ && tar -zxvf dotfiles.tgz -C . \
  && ./server.sh \
  && rm -rf ~/dotfiles
 ```
