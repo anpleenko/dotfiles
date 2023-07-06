@@ -19,7 +19,14 @@ sudo apt install -y \
 # работа с HEIC
 # пример запуска
 # for file in *.HEIC; do convert $file ${file%.HEIC}.png && rm $file; done
-sudo apt install -y heif-gdk-pixbuf heif-thumbnailer libheif1:amd64 gimagereader gpicview converseen imagemagick
+sudo apt install -y \
+  heif-gdk-pixbuf \
+  heif-thumbnailer \
+  libheif1:amd64 \
+  gimagereader \
+  gpicview \
+  converseen \
+  imagemagick
 
 # obs-studio 
 sudo add-apt-repository -y ppa:obsproject/obs-studio
