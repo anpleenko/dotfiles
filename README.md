@@ -7,23 +7,23 @@ sudo apt install curl
 ### Install configs for Desktop (Ubuntu 22.04)
 
 ```bash
-mkdir -p ~/dotfiles
-cd ~/dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-28m-17s/dotfiles.tgz
-sudo tar -zxvf dotfiles.tgz -C .
-./desktop.sh
-rm -rf ~/dotfiles
+mkdir -p ~/dotfiles \
+ && cd ~/dotfiles \
+ && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-29m-49s/dotfiles.tgz \
+ && sudo tar -zxvf dotfiles.tgz -C . \
+ && ./desktop.sh \
+ && rm -rf ~/dotfiles
 ```
 
 ### Install configs for Server (Ubuntu 22.04)
 
 ```bash
-mkdir -p ~/dotfiles
-cd ~/dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-28m-17s/dotfiles.tgz
-sudo tar -zxvf dotfiles.tgz -C .
-./server.sh
-rm -rf ~/dotfiles
+mkdir -p ~/dotfiles \
+ && cd ~/dotfiles \
+ && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-29m-49s/dotfiles.tgz \
+ && sudo tar -zxvf dotfiles.tgz -C . \
+ && ./server.sh \
+ && rm -rf ~/dotfiles
 ```
 
 ### install nvm
