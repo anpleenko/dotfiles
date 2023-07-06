@@ -9,7 +9,7 @@ sudo apt install curl
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-29m-49s/dotfiles.tgz \
+ && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-33m-46s/dotfiles.tgz \
  && sudo tar -zxvf dotfiles.tgz -C . \
  && ./desktop.sh \
  && rm -rf ~/dotfiles
@@ -20,7 +20,7 @@ mkdir -p ~/dotfiles \
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-29m-49s/dotfiles.tgz \
+ && curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-33m-46s/dotfiles.tgz \
  && sudo tar -zxvf dotfiles.tgz -C . \
  && ./server.sh \
  && rm -rf ~/dotfiles
