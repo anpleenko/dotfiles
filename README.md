@@ -1,15 +1,9 @@
-### Install requirements
-
-```bash
-sudo apt install curl
-```
-
 ### Install configs for Desktop (Ubuntu 22.04)
 
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && wget https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-51m-11s/dotfiles.tgz \
+ && wget https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-17h-01m-59s/dotfiles.tgz \
  && sudo tar -zxvf dotfiles.tgz -C . \
  && ./desktop.sh \
  && rm -rf ~/dotfiles
@@ -20,7 +14,7 @@ mkdir -p ~/dotfiles \
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && wget https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-51m-11s/dotfiles.tgz \
+ && wget https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-17h-01m-59s/dotfiles.tgz \
  && sudo tar -zxvf dotfiles.tgz -C . \
  && ./server.sh \
  && rm -rf ~/dotfiles
