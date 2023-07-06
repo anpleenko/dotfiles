@@ -31,11 +31,18 @@ sudo apt install -y \
 # нужно для запуска appimage программ
 sudo apt install libfuse2
 
-./install_allure.sh
+sudo ./install_allure.sh
+sudo ./install_git-lfs.sh
+
 ./install_docker.sh
-./install_git-lfs.sh
 ./install_python_3.sh
 ./install_zsh.sh
+
+# nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install 16
+npm install -g npm
+npm install -g yarn
 
 # copy configs
 yes | cp -vfa configs/. ~/

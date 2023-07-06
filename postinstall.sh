@@ -9,3 +9,7 @@ python --version
 pip --version
 docker --version
 docker-compose --version
+echo npm v$(npm --version)
+echo yarn v$(yarn --version)
+echo node $(node --version)
+echo nvm v$(nvm --version)
