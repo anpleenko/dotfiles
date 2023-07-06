@@ -8,7 +8,7 @@ sudo apt install curl
 
 ```bash
 mkdir -p ~/.temp/dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-13h-27m-44s/dotfiles.tgz
+curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-13m-28s/dotfiles.tgz
 sudo tar -zxvf dotfiles.tgz -C ~/.temp/dotfiles
 cd ~/.temp/dotfiles
 ./desktop.sh
@@ -19,7 +19,7 @@ rm -rf ~/.temp/dotfiles
 
 ```bash
 mkdir -p ~/.temp/dotfiles
-curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-13h-27m-44s/dotfiles.tgz
+curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/v06-07-2023-16h-13m-28s/dotfiles.tgz
 sudo tar -zxvf dotfiles.tgz -C ~/.temp/dotfiles
 cd ~/.temp/dotfiles
 ./server.sh
