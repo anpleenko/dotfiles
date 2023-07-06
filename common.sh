@@ -38,12 +38,6 @@ sudo ./install_git-lfs.sh
 ./install_python_3.sh
 ./install_zsh.sh
 
-# nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-nvm install 16
-npm install -g npm
-npm install -g yarn
-
 # copy configs
 yes | cp -vfa configs/. ~/
 
