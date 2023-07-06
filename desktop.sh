@@ -13,7 +13,6 @@ sudo apt install -y \
   synaptic \
   tilix \
   vlc \
-  python3-pip \
   python3-nautilus
 
 # работа с HEIC
