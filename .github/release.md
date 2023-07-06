@@ -1,9 +1,3 @@
-### Install requirements
-
-```bash
-sudo apt install curl
-```
-
 ### Install configs for Desktop (Ubuntu 22.04)
 
 ```bash
