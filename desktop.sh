@@ -28,8 +28,8 @@ sudo apt install -y \
   imagemagick
 
 # obs-studio 
-# sudo add-apt-repository --yes ppa:obsproject/obs-studio
-# sudo apt update -y && sudo apt install -y obs-studio
+sudo add-apt-repository --yes ppa:obsproject/obs-studio
+sudo apt update -y && sudo apt install -y obs-studio
 
 ./install_sublime_products.sh
 ./install_kitty.sh
