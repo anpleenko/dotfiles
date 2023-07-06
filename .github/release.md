@@ -7,23 +7,23 @@ sudo apt install curl
 ### Install configs for Desktop (Ubuntu 22.04)
 
 ```bash
-cd /tmp
-mkdir dotfiles
+mkdir -p ~/.temp/dotfiles
 curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/<tag>/dotfiles.tgz
-sudo tar -zxvf dotfiles.tgz -C /tmp/dotfiles
-cd /tmp/dotfiles
+sudo tar -zxvf dotfiles.tgz -C ~/.temp/dotfiles
+cd ~/.temp/dotfiles
 ./desktop.sh
+rm -rf ~/.temp/dotfiles
 ```
 
 ### Install configs for Server (Ubuntu 22.04)
 
 ```bash
-cd /tmp
-mkdir dotfiles
+mkdir -p ~/.temp/dotfiles
 curl -o dotfiles.tgz -Ls https://github.com/anpleenko/linux-dotfiles/releases/download/<tag>/dotfiles.tgz
-sudo tar -zxvf dotfiles.tgz -C /tmp/dotfiles
-cd /tmp/dotfiles
+sudo tar -zxvf dotfiles.tgz -C ~/.temp/dotfiles
+cd ~/.temp/dotfiles
 ./server.sh
+rm -rf ~/.temp/dotfiles
 ```
 
 ### install nvm
