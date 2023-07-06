@@ -21,6 +21,11 @@ sudo apt install -y \
 # for file in *.HEIC; do convert $file ${file%.HEIC}.png && rm $file; done
 sudo apt install -y heif-gdk-pixbuf heif-thumbnailer libheif1:amd64 gimagereader gpicview converseen imagemagick
 
+# obs-studio 
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo apt update
+sudo apt-get update && sudo apt-get install obs-studio
+
 ./install_sublime_products.sh
 ./install_kitty.sh
 
