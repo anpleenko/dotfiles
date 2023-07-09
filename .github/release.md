@@ -19,12 +19,3 @@ mkdir -p ~/dotfiles \
  && ./server.sh \
  && rm -rf ~/dotfiles
 ```
-
-### install nvm
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-nvm install 16
-npm install -g npm
-npm install -g yarn
-```
