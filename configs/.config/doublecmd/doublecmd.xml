@@ -18,7 +18,9 @@
           <Icon>cm_options</Icon>
           <Command>cm_Options</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{E896DD97-6763-4E1D-AEB7-C5746F3E40CF}</ID>
           <Icon>cm_briefview</Icon>
@@ -34,13 +36,17 @@
           <Icon>cm_thumbnailsview</Icon>
           <Command>cm_ThumbnailsView</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{B2AC8721-DA08-41DD-9120-8505089135A8}</ID>
           <Icon>cm_flatview</Icon>
           <Command>cm_FlatView</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{D37AF30C-EE3F-4EF0-AB6E-6CFEB3EB09C0}</ID>
           <Icon>cm_viewhistoryprev</Icon>
@@ -51,7 +57,9 @@
           <Icon>cm_viewhistorynext</Icon>
           <Command>cm_ViewHistoryNext</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{1DD14526-0265-4066-ACF6-DC35594456C7}</ID>
           <Icon>cm_markplus</Icon>
@@ -67,7 +75,9 @@
           <Icon>cm_markinvert</Icon>
           <Command>cm_MarkInvert</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{6F4FB031-FEF8-4D8E-A6A2-AB90DD3C08B7}</ID>
           <Icon>cm_packfiles</Icon>
@@ -78,7 +88,9 @@
           <Icon>cm_extractfiles</Icon>
           <Command>cm_ExtractFiles</Command>
         </Command>
-        <Separator/>
+        <Separator>
+          <Style>False</Style>
+        </Separator>
         <Command>
           <ID>{4DF7E99B-DE34-40A9-ABFA-9BE20ED987FB}</ID>
           <Icon>cm_search</Icon>
@@ -104,22 +116,22 @@
     <MiddleToolbar>
       <Row>
         <Command>
-          <ID>{16D74A9B-A261-4A1F-BFEF-5D84B61108B0}</ID>
+          <ID>{C6D57817-A702-4CB6-8A70-7FE83C8DD87F}</ID>
           <Icon>cm_view</Icon>
           <Command>cm_View</Command>
         </Command>
         <Command>
-          <ID>{F30576DF-284D-4F5D-A14C-E06F883F4CA5}</ID>
+          <ID>{6225C221-2A44-403A-841E-D25CAB15A03F}</ID>
           <Icon>cm_edit</Icon>
           <Command>cm_Edit</Command>
         </Command>
         <Command>
-          <ID>{5F8378F7-4313-4F6F-8882-7F833C71A4D4}</ID>
+          <ID>{2875DDC8-237D-4B0E-8BA9-76E8B64B1BA7}</ID>
           <Icon>cm_copy</Icon>
           <Command>cm_Copy</Command>
         </Command>
         <Command>
-          <ID>{A2E1718F-8B8D-4C7A-9C2C-9855EA07CCB3}</ID>
+          <ID>{4D2BFB40-052C-4C16-8967-2ECC66093117}</ID>
           <Icon>cm_rename</Icon>
           <Command>cm_Rename</Command>
         </Command>
@@ -127,12 +139,12 @@
           <Style>True</Style>
         </Separator>
         <Command>
-          <ID>{DED5BCBA-EA68-4F6D-82B0-9DA44B69B332}</ID>
+          <ID>{EBEEDEA2-C6D9-4F64-9972-50851E14E6CC}</ID>
           <Icon>cm_packfiles</Icon>
           <Command>cm_PackFiles</Command>
         </Command>
         <Command>
-          <ID>{1CAFD250-CFA9-4A6B-BFA7-EB7EE0D851ED}</ID>
+          <ID>{BD10D3E9-16D0-4C22-BE16-055736F18313}</ID>
           <Icon>cm_makedir</Icon>
           <Command>cm_MakeDir</Command>
         </Command>
@@ -141,12 +153,12 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Maximized>True</Maximized>
-      <Splitter>50</Splitter>
-      <Left>0</Left>
-      <Top>694</Top>
-      <Width>2289</Width>
-      <Height>883</Height>
+      <Maximized>False</Maximized>
+      <Splitter>52.3932063818837</Splitter>
+      <Left>4400</Left>
+      <Top>312</Top>
+      <Width>2575</Width>
+      <Height>1521</Height>
       <PixelsPerInch>192</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -166,56 +178,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="Rikei ga Koi ni Ochita no de Shoumei Shitemita">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/Rikei ga Koi ni Ochita no de Shoumei Shitemita/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename=".Trash-1000">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/.Trash-1000/</Path>
-                  <Path Filename=".Trash-1000">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/.Trash-1000/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="dropbox">/mnt/nfs/box/</Path>
-                  <Path Filename="Шрифты">/mnt/nfs/box/dropbox/</Path>
-                  <Path Filename="Моноширные">/mnt/nfs/box/dropbox/Шрифты/</Path>
-                  <Path Filename="PragmataPro0.829">/mnt/nfs/box/dropbox/Шрифты/Моноширные/</Path>
-                  <Path Filename="..">/mnt/nfs/box/dropbox/Шрифты/Моноширные/PragmataPro0.829/</Path>
-                  <Path Filename="..">/mnt/nfs/box/dropbox/Шрифты/Моноширные/</Path>
-                  <Path Filename="..">/mnt/nfs/box/dropbox/Шрифты/</Path>
-                  <Path Filename="..">/mnt/nfs/box/dropbox/</Path>
-                  <Path Filename="ISO images">/mnt/nfs/box/</Path>
-                  <Path Filename="Pop OS!">/mnt/nfs/box/ISO images/</Path>
-                  <Path Filename="..">/mnt/nfs/box/ISO images/Pop OS!/</Path>
-                  <Path Filename="..">/mnt/nfs/box/ISO images/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="Bakemonogatari">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/Bakemonogatari/</Path>
-                  <Path Filename="Barakamon">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/Barakamon/</Path>
-                  <Path Filename="Enen no Shouboutai">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="tv-shows">/mnt/nfs/box/</Path>
-                  <Path Filename="The Rookie">/mnt/nfs/box/tv-shows/</Path>
-                  <Path Filename="..">/mnt/nfs/box/tv-shows/The Rookie/</Path>
-                  <Path Filename="..">/mnt/nfs/box/tv-shows/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="tv-shows">/mnt/nfs/box/</Path>
-                  <Path Filename="South Park">/mnt/nfs/box/tv-shows/</Path>
-                  <Path Filename="..">/mnt/nfs/box/tv-shows/South Park/</Path>
-                  <Path Filename="South Park">/mnt/nfs/box/tv-shows/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="Danshi Koukousei no Nichijou">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/Danshi Koukousei no Nichijou/</Path>
-                  <Path Filename="Beatless">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/Beatless/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
+                  <Path Filename="2011 - Tri-Polar">C:\music\Sick Puppies\/</Path>
+                  <Path Filename="..">C:\music\Sick Puppies\2011 - Tri-Polar\/</Path>
+                  <Path Filename="..">C:\music\Sick Puppies\/</Path>
+                  <Path Filename="Evans Blue">C:\music\/</Path>
+                  <Path Filename="2006 - The Melody and the Energetic Nature of Volume">C:\music\Evans Blue\/</Path>
+                  <Path Filename="..">C:\music\Evans Blue\2006 - The Melody and the Energetic Nature of Volume\/</Path>
+                  <Path Filename="2006 - The Melody And Energetic Nature Of Volume">C:\music\Evans Blue\/</Path>
+                  <Path Filename="..">C:\music\Evans Blue\2006 - The Melody And Energetic Nature Of Volume\/</Path>
+                  <Path Filename="..">C:\music\Evans Blue\/</Path>
+                  <Path Filename="Crematory">C:\music\/</Path>
+                  <Path Filename="2000 - Believe">C:\music\Crematory\/</Path>
+                  <Path Filename="..">C:\music\Crematory\2000 - Believe\/</Path>
+                  <Path Filename="..">C:\music\Crematory\/</Path>
+                  <Path Filename="Meg &amp; Dia">C:\music\/</Path>
+                  <Path Filename="2006 - Something Real">C:\music\Meg &amp; Dia\/</Path>
+                  <Path Filename="01 Monster.mp3">C:\music\Meg &amp; Dia\2006 - Something Real\/</Path>
+                  <Path Filename="2006 - Something Real">C:\music\Meg &amp; Dia\/</Path>
+                  <Path Filename="ПОРНОфИЛЬМЫ">C:\music\/</Path>
+                  <Path Filename="..">C:\music\ПОРНОфИЛЬМЫ\/</Path>
+                  <Path Filename="Мураками">C:\music\/</Path>
+                  <Path Filename="..">C:\music\Мураками\/</Path>
+                  <Path Filename="Ария">C:\music\/</Path>
+                  <Path Filename="1987 - Герой Асфальта">C:\music\Ария\/</Path>
+                  <Path Filename="..">C:\music\Ария\1987 - Герой Асфальта\/</Path>
+                  <Path Filename="..">C:\music\Ария\/</Path>
+                  <Path Filename="10 Years">C:\music\/</Path>
+                  <Path Filename="2022 - Deconstructed">C:\music\10 Years\/</Path>
+                  <Path Filename="..">C:\music\10 Years\2022 - Deconstructed\/</Path>
+                  <Path Filename="2010 - Feeding The Wolves">C:\music\10 Years\/</Path>
+                  <Path Filename="..">C:\music\10 Years\2010 - Feeding The Wolves\/</Path>
+                  <Path Filename="..">C:\music\10 Years\/</Path>
+                  <Path Filename="H-Blockx">C:\music\/</Path>
+                  <Path Filename="2007 - Open Letter To A Friend">C:\music\H-Blockx\/</Path>
+                  <Path Filename="..">C:\music\H-Blockx\2007 - Open Letter To A Friend\/</Path>
+                  <Path Filename="..">C:\music\H-Blockx\/</Path>
+                  <Path Filename="Rev Theory">C:\music\/</Path>
+                  <Path Filename="2008 - Light It Up">C:\music\Rev Theory\/</Path>
+                  <Path Filename="cover.jpg">C:\music\Rev Theory\2008 - Light It Up\/</Path>
+                  <Path Filename="2008 - Light It Up">C:\music\Rev Theory\/</Path>
+                  <Path Filename="Closure">C:\music\/</Path>
+                  <Path Filename="2003 - Closure">C:\music\Closure\/</Path>
+                  <Path Filename="..">C:\music\Closure\2003 - Closure\/</Path>
+                  <Path Filename="..">C:\music\Closure\/</Path>
+                  <Path Filename="..">C:\music\/</Path>
+                  <Path Filename="PerfLogs">C:\/</Path>
+                  <Path Filename="snap">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/snap/</Path>
+                  <Path Filename="Desktop">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Desktop/</Path>
+                  <Path Filename="Desktop">/home/qa/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -226,110 +238,69 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>1</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/usr/lib/doublecmd/</Path>
-                  <Path Filename="doublecmd">/usr/lib/</Path>
-                  <Path Filename="lib">/usr/</Path>
-                  <Path Filename="mnt">/</Path>
-                  <Path Filename="nfs">/mnt/</Path>
-                  <Path Filename="media">/mnt/nfs/</Path>
-                  <Path Filename="anime">/mnt/nfs/media/</Path>
-                  <Path Filename="Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita">/mnt/nfs/media/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/media/anime/Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita/</Path>
-                  <Path Filename="Beatless">/mnt/nfs/media/anime/</Path>
-                  <Path Filename="..">/mnt/nfs/media/anime/Beatless/</Path>
-                  <Path Filename="alex">/home/</Path>
-                  <Path Filename="Downloads">/home/alex/</Path>
-                  <Path Filename="anime">/home/alex/Downloads/</Path>
-                  <Path Filename="Nanatsu no Taizai">/home/alex/Downloads/anime/</Path>
-                  <Path Filename="..">/home/alex/Downloads/anime/Nanatsu no Taizai/</Path>
-                  <Path Filename="..">/home/alex/Downloads/anime/</Path>
-                  <Path Filename="">/home/alex/Downloads/</Path>
-                  <Path Filename="qa">/home/</Path>
-                  <Path Filename="Downloads">/home/qa/</Path>
-                  <Path Filename="..">/home/qa/Downloads/</Path>
-                  <Path Filename="Downloads">/home/qa/</Path>
-                  <Path Filename="..">/home/qa/Downloads/</Path>
-                  <Path Filename=".local">/home/qa/</Path>
-                  <Path Filename="share">/home/qa/.local/</Path>
-                  <Path Filename="fonts">/home/qa/.local/share/</Path>
-                  <Path Filename="RobotoMono-ExtraLight.ttf">/home/qa/.local/share/fonts/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
+        <ActiveTab>0</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
               <Sorting>
                 <Direction>1</Direction>
-                <Function>1</Function>
+                <Function>12</Function>
               </Sorting>
             </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Rikei ga Koi ni Ochita no de Shoumei Shitemita/</Path>
-                  <Path Filename="Gaikotsu Kishi-sama Tadaima Isekai e Odekakechuu">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Gaikotsu Kishi-sama Tadaima Isekai e Odekakechuu/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="downloads">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="downloads">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="downloads">/mnt/nfs/box/</Path>
-                  <Path Filename="Tate no Yuusha no Nariagari">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Tate no Yuusha no Nariagari/</Path>
-                  <Path Filename="Shijou Saikyou no Daimaou, Murabito A ni Tensei suru">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Shijou Saikyou no Daimaou, Murabito A ni Tensei suru/</Path>
-                  <Path Filename="The.Rookie.S04.WEBDL.720p.Rus.Eng">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/The.Rookie.S04.WEBDL.720p.Rus.Eng/</Path>
-                  <Path Filename="The.Rookie.S04.WEBDL.720p.Rus.Eng">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/The.Rookie.S04.WEBDL.720p.Rus.Eng/</Path>
-                  <Path Filename="Kono Healer Mendokusai">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Kono Healer Mendokusai/</Path>
-                  <Path Filename="Rikei ga Koi ni Ochita no de Shoumei Shitemita Heart">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Rikei ga Koi ni Ochita no de Shoumei Shitemita Heart/</Path>
-                  <Path Filename="South.Park.S24.1080p.WEB-DL.H264.RU-Paramount.Comedy">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/South.Park.S24.1080p.WEB-DL.H264.RU-Paramount.Comedy/</Path>
-                  <Path Filename="South.Park.S24.1080p.WEB-DL.H264.RU-Paramount.Comedy">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/South.Park.S24.1080p.WEB-DL.H264.RU-Paramount.Comedy/</Path>
-                  <Path Filename="Healer Girl">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="s01e01.mkv">/mnt/nfs/box/downloads/Healer Girl/</Path>
-                  <Path Filename="Shijou Saikyou no Daimaou, Murabito A ni Tensei suru">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Shijou Saikyou no Daimaou, Murabito A ni Tensei suru/</Path>
-                  <Path Filename="Tate no Yuusha no Nariagari">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Tate no Yuusha no Nariagari/</Path>
-                  <Path Filename="Healer Girl">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Healer Girl/</Path>
-                  <Path Filename="Shijou Saikyou no Daimaou, Murabito A ni Tensei suru">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Shijou Saikyou no Daimaou, Murabito A ni Tensei suru/</Path>
-                  <Path Filename="Tate no Yuusha no Nariagari">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/Tate no Yuusha no Nariagari/</Path>
-                  <Path Filename="..">/mnt/nfs/box/downloads/</Path>
-                  <Path Filename="youtube">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/youtube/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="youtube">/mnt/nfs/box/</Path>
-                  <Path Filename="Сергей Сова">/mnt/nfs/box/youtube/</Path>
-                  <Path Filename="..">/mnt/nfs/box/youtube/Сергей Сова/</Path>
-                  <Path Filename="..">/mnt/nfs/box/youtube/</Path>
-                  <Path Filename="anime">/mnt/nfs/box/</Path>
-                  <Path Filename="..">/mnt/nfs/box/anime/</Path>
-                  <Path Filename="downloads">/mnt/nfs/box/</Path>
-                  <Path Filename="code(1).zip">/mnt/nfs/box/downloads/</Path>
+                  <Path Filename="1988. ...And Justice For All">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1988. ...And Justice For All\/</Path>
+                  <Path Filename="1991. Metallica">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1991. Metallica\/</Path>
+                  <Path Filename="1996. Load">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1996. Load\/</Path>
+                  <Path Filename="1997. ReLoad">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1997. ReLoad\/</Path>
+                  <Path Filename="1998. Garage Inc">C:\music\Metallica\/</Path>
+                  <Path Filename="CD 1">C:\music\Metallica\1998. Garage Inc\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1998. Garage Inc\CD 1\/</Path>
+                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
+                  <Path Filename="1998. Garage Inc">C:\music\Metallica\/</Path>
+                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
+                  <Path Filename="..">C:\music\Metallica\1998. Garage Inc\CD 2\/</Path>
+                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
+                  <Path Filename="2003. St. Anger">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\2003. St. Anger\/</Path>
+                  <Path Filename="2008. Death Magnetic">C:\music\Metallica\/</Path>
+                  <Path Filename="..">C:\music\Metallica\2008. Death Magnetic\/</Path>
+                  <Path Filename="2016. Hardwired... To Self-Destruct">C:\music\Metallica\/</Path>
+                  <Path Filename="CD1">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
+                  <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD1\/</Path>
+                  <Path Filename="CD2">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
+                  <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD2\/</Path>
+                  <Path Filename="CD3">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
+                  <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD3\/</Path>
+                  <Path Filename="CD3">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
+                  <Path Filename="2016. Hardwired... To Self-Destruct">C:\music\Metallica\/</Path>
+                  <Path Filename="Methods of Mayhem">C:\music\/</Path>
+                  <Path Filename="Methods of Mayhem">C:\music\Methods of Mayhem\/</Path>
+                  <Path Filename="..">C:\music\Methods of Mayhem\Methods of Mayhem\/</Path>
+                  <Path Filename="Methods of Mayhem">C:\music\Methods of Mayhem\/</Path>
+                  <Path Filename="Methods of Mayhem">C:\music\/</Path>
+                  <Path Filename="music">C:\/</Path>
+                  <Path Filename="Пневмослон">C:\music\/</Path>
+                  <Path Filename="2018 - Контрэволюция (часть 1)">C:\music\Пневмослон\/</Path>
+                  <Path Filename="..">C:\music\Пневмослон\2018 - Контрэволюция (часть 1)\/</Path>
+                  <Path Filename="..">C:\music\Пневмослон\/</Path>
+                  <Path Filename="..">C:\music\/</Path>
+                  <Path Filename="music">C:\/</Path>
+                  <Path Filename="..">C:\music\/</Path>
+                  <Path Filename="..">z:\movies\Star Wars\/</Path>
+                  <Path Filename="..">z:\movies\/</Path>
+                  <Path Filename="ISO">z:\/</Path>
+                  <Path Filename="..">z:\ISO\/</Path>
+                  <Path Filename="AMV">z:\/</Path>
+                  <Path Filename="Desktop">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Desktop/</Path>
+                  <Path Filename="Videos">/home/qa/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -340,21 +311,21 @@
         </Tab>
       </Right>
     </OpenedTabs>
-    <Options>49937</Options>
+    <Options>51985</Options>
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
-    <ActionOnDoubleClick>2</ActionOnDoubleClick>
+    <ActionOnDoubleClick>1</ActionOnDoubleClick>
   </Tabs>
   <Configuration Save="True" SortOrder="1" TreeType="0">
-    <UseConfigInProgramDir>False</UseConfigInProgramDir>
     <FolderTabs Save="True"/>
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
   </Configuration>
   <Language>
-    <POFileName>doublecmd.en.po</POFileName>
+    <POFileName>doublecmd.ru.po</POFileName>
   </Language>
   <Behaviours>
-    <GoToRoot>False</GoToRoot>
-    <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
+    <GoToRoot>True</GoToRoot>
+    <ShowCurDirTitleBar>True</ShowCurDirTitleBar>
     <ActiveRight>False</ActiveRight>
     <RunInTerminalStayOpenCmd>x-terminal-emulator</RunInTerminalStayOpenCmd>
     <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
@@ -410,8 +381,8 @@
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Viewer>
-    <Editor Enabled="True">
-      <Path>subl</Path>
+    <Editor Enabled="False">
+      <Path/>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
@@ -427,18 +398,18 @@
   <Fonts>
     <Main>
       <Name>Ubuntu</Name>
-      <Size>14</Size>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </Main>
     <Editor>
-      <Name>Ubuntu Mono</Name>
+      <Name>Monospace</Name>
       <Size>14</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Editor>
     <Viewer>
-      <Name>Ubuntu</Name>
+      <Name>Monospace</Name>
       <Size>14</Size>
       <Style>0</Style>
       <Quality>0</Quality>
@@ -456,62 +427,62 @@
       <Quality>0</Quality>
     </OptionsMain>
     <SearchResults>
-      <Name>Ubuntu</Name>
+      <Name>default</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </SearchResults>
     <PathEdit>
       <Name>Ubuntu</Name>
-      <Size>14</Size>
+      <Size>10</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </PathEdit>
     <FunctionButtons>
       <Name>Ubuntu</Name>
-      <Size>10</Size>
+      <Size>9</Size>
       <Style>0</Style>
-      <Quality>0</Quality>
+      <Quality>1</Quality>
     </FunctionButtons>
     <Log>
-      <Name>Ubuntu</Name>
+      <Name>Monospace</Name>
       <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Log>
     <ViewerBook>
-      <Name>Ubuntu</Name>
-      <Size>10</Size>
-      <Style>0</Style>
+      <Name>default</Name>
+      <Size>16</Size>
+      <Style>1</Style>
       <Quality>0</Quality>
     </ViewerBook>
     <Console>
-      <Name>Ubuntu Mono</Name>
+      <Name>Monospace</Name>
       <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Console>
     <TreeViewMenu>
-      <Name>Ubuntu</Name>
+      <Name>default</Name>
       <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </TreeViewMenu>
   </Fonts>
   <Colors>
-    <UseCursorBorder>False</UseCursorBorder>
+    <UseCursorBorder>True</UseCursorBorder>
     <CursorBorderColor>-2147483635</CursorBorderColor>
     <UseFrameCursor>False</UseFrameCursor>
-    <Foreground>-2147483640</Foreground>
-    <Background>-2147483643</Background>
-    <Background2>-2147483643</Background2>
-    <Cursor>-2147483619</Cursor>
-    <CursorText>-2147483640</CursorText>
+    <Foreground>12632256</Foreground>
+    <Background>-2147483644</Background>
+    <Background2>-2147483644</Background2>
+    <Cursor>15780518</Cursor>
+    <CursorText>0</CursorText>
     <Mark>255</Mark>
     <InactiveCursor>-2147483645</InactiveCursor>
     <InactiveMark>128</InactiveMark>
     <UseInvertedSelection>False</UseInvertedSelection>
-    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <UseInactiveSelColor>True</UseInactiveSelColor>
     <AllowOverColor>True</AllowOverColor>
     <gBorderFrameWidth>1</gBorderFrameWidth>
     <InactivePanelBrightness>100</InactivePanelBrightness>
@@ -541,10 +512,10 @@
   </ToolTips>
   <Layout>
     <MainMenu>True</MainMenu>
-    <ButtonBar Enabled="False">
+    <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>34</ButtonHeight>
-      <IconSize>28</IconSize>
+      <ButtonHeight>48</ButtonHeight>
+      <IconSize>32</IconSize>
       <ShowCaptions>False</ShowCaptions>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
       <FilenameStyle>0</FilenameStyle>
@@ -613,9 +584,9 @@
   <Keyboard>
     <Typing>
       <Actions>
-        <NoModifier>2</NoModifier>
+        <NoModifier>3</NoModifier>
         <Alt>0</Alt>
-        <CtrlAlt>3</CtrlAlt>
+        <CtrlAlt>0</CtrlAlt>
       </Actions>
     </Typing>
   </Keyboard>
@@ -675,7 +646,7 @@
       <MulRenLaunchBehavor>0</MulRenLaunchBehavor>
       <MulRenExitModifiedPreset>0</MulRenExitModifiedPreset>
       <MulRenSaveRenamingLog>0</MulRenSaveRenamingLog>
-      <MulRenLogFilename>%DC_CONFIG_PATH%/multirename.log</MulRenLogFilename>
+      <MulRenLogFilename>%DC_CONFIG_PATH%\multirename.log</MulRenLogFilename>
       <MultRenDailyIndividualDirLog>True</MultRenDailyIndividualDirLog>
       <MulRenFilenameWithFullPathInLog>False</MulRenFilenameWithFullPathInLog>
       <MulRenPathRangeSeparator>- </MulRenPathRangeSeparator>
@@ -692,13 +663,13 @@
     <FileMaskHistory Save="True"/>
   </History>
   <QuickSearch>
-    <MatchBeginning>True</MatchBeginning>
-    <MatchEnding>True</MatchEnding>
+    <MatchBeginning>False</MatchBeginning>
+    <MatchEnding>False</MatchEnding>
     <Case>1</Case>
     <Items>2</Items>
   </QuickSearch>
   <QuickFilter>
-    <AutoHide>True</AutoHide>
+    <AutoHide>False</AutoHide>
     <SaveSessionModifications>False</SaveSessionModifications>
   </QuickFilter>
   <Miscellaneous>
@@ -706,10 +677,10 @@
     <GridHorzLine>False</GridHorzLine>
     <ShowWarningMessages>True</ShowWarningMessages>
     <SpaceMovesDown>False</SpaceMovesDown>
-    <DirBrackets>True</DirBrackets>
+    <DirBrackets>False</DirBrackets>
     <InplaceRename>False</InplaceRename>
     <InplaceRenameButton>False</InplaceRenameButton>
-    <DblClickToParent>False</DblClickToParent>
+    <DblClickToParent>True</DblClickToParent>
     <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
     <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
     <ShowPathInPopup>False</ShowPathInPopup>
@@ -718,6 +689,7 @@
     <FilenameStyle>0</FilenameStyle>
     <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
     <PathModifierElements>0</PathModifierElements>
+    <DefaultTextEncoding>none</DefaultTextEncoding>
   </Miscellaneous>
   <Thumbnails Save="True">
     <Width>128</Width>
@@ -739,14 +711,14 @@
     <ShowMode>2</ShowMode>
     <ShowOverlays>False</ShowOverlays>
     <Size>48</Size>
-    <DiskSize>24</DiskSize>
+    <DiskSize>32</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
     <PixelsPerInch>192</PixelsPerInch>
-    <ShowInMenus Enabled="False">
-      <Size>16</Size>
+    <ShowInMenus Enabled="True">
+      <Size>24</Size>
     </ShowInMenus>
     <ShowButtonGlyphs>0</ShowButtonGlyphs>
     <ToolSize>24</ToolSize>
@@ -754,7 +726,9 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList/>
+  <DirectoryHotList>
+    <HotDir Name="Downloads" Path="C:\Users\admin\Downloads"/>
+  </DirectoryHotList>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -771,7 +745,7 @@
     <NumberOfColumns>1</NumberOfColumns>
     <TabSpaces>8</TabSpaces>
     <MaxTextWidth>1024</MaxTextWidth>
-    <ViewerMode>0</ViewerMode>
+    <ViewerMode>1</ViewerMode>
     <PaintColor>255</PaintColor>
     <BackgroundColor>0</BackgroundColor>
     <FontColor>16777215</FontColor>
@@ -905,129 +879,129 @@
   <MarkDefaultWantedAttribute/>
   <MarkLastWantedAttribute/>
   <SearchTemplates/>
-  <ColumnsSets DefaultTitleHash="540805403">
+  <ColumnsSets DefaultTitleHash="1848642058">
     <ColumnsSet UseFrameCursor="False">
       <Name>Default</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
       <PixelsPerInch>192</PixelsPerInch>
-      <CursorBorder Enabled="False">
+      <CursorBorder Enabled="True">
         <Color>-2147483635</Color>
       </CursorBorder>
       <Columns>
         <Column>
-          <Title>Name</Title>
+          <Title>Имя</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>2646</Width>
+          <Width>500</Width>
           <Align>0</Align>
           <Font>
-            <Name>Liberation Sans</Name>
-            <Size>12</Size>
+            <Name>Ubuntu</Name>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>0</TextColor>
+          <Background>-2147483644</Background>
+          <Background2>-2147483644</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483619</CursorColor>
-          <CursorText>-2147483640</CursorText>
+          <CursorColor>15780518</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
           <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
-          <Title>Ext</Title>
+          <Title>Тип</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>182</Width>
+          <Width>100</Width>
           <Align>0</Align>
           <Font>
-            <Name>Liberation Sans</Name>
-            <Size>12</Size>
+            <Name>Ubuntu</Name>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>0</TextColor>
+          <Background>-2147483644</Background>
+          <Background2>-2147483644</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483619</CursorColor>
-          <CursorText>-2147483640</CursorText>
+          <CursorColor>15780518</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
           <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
-          <Title>Size</Title>
+          <Title>Размер</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
           <Width>140</Width>
           <Align>1</Align>
           <Font>
-            <Name>Liberation Sans</Name>
-            <Size>12</Size>
+            <Name>Ubuntu</Name>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>0</TextColor>
+          <Background>-2147483644</Background>
+          <Background2>-2147483644</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483619</CursorColor>
-          <CursorText>-2147483640</CursorText>
+          <CursorColor>15780518</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
           <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
-          <Title>Date</Title>
+          <Title>Дата</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>281</Width>
+          <Width>280</Width>
           <Align>1</Align>
           <Font>
-            <Name>Liberation Sans</Name>
-            <Size>12</Size>
+            <Name>Ubuntu</Name>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>0</TextColor>
+          <Background>-2147483644</Background>
+          <Background2>-2147483644</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483619</CursorColor>
-          <CursorText>-2147483640</CursorText>
+          <CursorColor>15780518</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
           <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
-          <Title>Attr</Title>
-          <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>199</Width>
+          <Title/>
+          <FuncString/>
+          <Width>30</Width>
           <Align>0</Align>
           <Font>
-            <Name>Liberation Sans</Name>
-            <Size>12</Size>
+            <Name>Ubuntu</Name>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
+          <TextColor>0</TextColor>
+          <Background>-2147483644</Background>
+          <Background2>-2147483644</Background2>
           <MarkColor>255</MarkColor>
-          <CursorColor>-2147483619</CursorColor>
-          <CursorText>-2147483640</CursorText>
+          <CursorColor>15780518</CursorColor>
+          <CursorText>0</CursorText>
           <InactiveCursorColor>-2147483645</InactiveCursorColor>
           <InactiveMarkColor>255</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <UseInactiveSelColor>True</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
       </Columns>
@@ -1098,12 +1072,12 @@
       </WcxPlugin>
       <WcxPlugin Enabled="True">
         <ArchiveExt>cpio</ArchiveExt>
-        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
         <Flags>4</Flags>
       </WcxPlugin>
       <WcxPlugin Enabled="True">
         <ArchiveExt>deb</ArchiveExt>
-        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
         <Flags>4</Flags>
       </WcxPlugin>
       <WcxPlugin Enabled="True">
@@ -1117,8 +1091,93 @@
         <Flags>607</Flags>
       </WcxPlugin>
       <WcxPlugin Enabled="True">
+        <ArchiveExt>7z</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>arj</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cab</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cramfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>dmg</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>fat</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>hfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>iso</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lha</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzh</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>ntfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>squashfs</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>taz</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>vhd</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>wim</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>85</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xar</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>z</ArchiveExt>
+        <Path>%commander_path%\plugins\wcx\sevenzip\sevenzip.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
         <ArchiveExt>zst</ArchiveExt>
-        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Path>%commander_path%\plugins\wcx\zip\zip.wcx</Path>
         <Flags>91</Flags>
       </WcxPlugin>
     </WcxPlugins>
@@ -1149,7 +1208,18 @@
         <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
       </WfxPlugin>
     </WfxPlugins>
-    <WlxPlugins/>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>preview</Name>
+        <Path>%commander_path%\plugins\wlx\preview\preview.wlx</Path>
+        <DetectString>(EXT="HTM")|(EXT="HTML")|(EXT="MHT")|(EXT="MHTML")</DetectString>
+      </WlxPlugin>
+      <WlxPlugin Enabled="True">
+        <Name>wmp</Name>
+        <Path>%commander_path%\plugins\wlx\wmp\wmp.wlx</Path>
+        <DetectString>(EXT="WAV")|(EXT="MP3")|(EXT="WMA")|(EXT="MP4")|(EXT="AVI")|(EXT="WMV")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
     <TweakPluginWidth0>0</TweakPluginWidth0>
     <TweakPluginHeight0>0</TweakPluginHeight0>
     <TweakPluginWidth1>0</TweakPluginWidth1>
@@ -1170,7 +1240,7 @@
     <Presets>
       <Preset>
         <Name>{BC322BF1-2185-47F6-9F99-D27ED1E23E53}</Name>
-        <Filename>s02e[C]</Filename>
+        <Filename>s01e[C]</Filename>
         <Extension>[E]</Extension>
         <FilenameStyle>0</FilenameStyle>
         <ExtensionStyle>0</ExtensionStyle>
@@ -1241,5 +1311,6 @@
     <PaintBackground>True</PaintBackground>
     <LineDifferences>False</LineDifferences>
     <IgnoreWhiteSpace>False</IgnoreWhiteSpace>
+    <AutoCompare>True</AutoCompare>
   </Differ>
 </doublecmd>
