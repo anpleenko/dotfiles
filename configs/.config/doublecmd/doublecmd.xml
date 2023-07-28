@@ -155,8 +155,8 @@
     <Position Save="True">
       <Maximized>False</Maximized>
       <Splitter>52.3932063818837</Splitter>
-      <Left>4400</Left>
-      <Top>312</Top>
+      <Left>4242</Left>
+      <Top>377</Top>
       <Width>2575</Width>
       <Height>1521</Height>
       <PixelsPerInch>192</PixelsPerInch>
@@ -251,32 +251,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="1988. ...And Justice For All">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1988. ...And Justice For All\/</Path>
-                  <Path Filename="1991. Metallica">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1991. Metallica\/</Path>
-                  <Path Filename="1996. Load">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1996. Load\/</Path>
-                  <Path Filename="1997. ReLoad">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1997. ReLoad\/</Path>
-                  <Path Filename="1998. Garage Inc">C:\music\Metallica\/</Path>
-                  <Path Filename="CD 1">C:\music\Metallica\1998. Garage Inc\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1998. Garage Inc\CD 1\/</Path>
-                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
-                  <Path Filename="1998. Garage Inc">C:\music\Metallica\/</Path>
-                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
-                  <Path Filename="..">C:\music\Metallica\1998. Garage Inc\CD 2\/</Path>
-                  <Path Filename="CD 2">C:\music\Metallica\1998. Garage Inc\/</Path>
-                  <Path Filename="2003. St. Anger">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\2003. St. Anger\/</Path>
-                  <Path Filename="2008. Death Magnetic">C:\music\Metallica\/</Path>
-                  <Path Filename="..">C:\music\Metallica\2008. Death Magnetic\/</Path>
-                  <Path Filename="2016. Hardwired... To Self-Destruct">C:\music\Metallica\/</Path>
-                  <Path Filename="CD1">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
-                  <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD1\/</Path>
-                  <Path Filename="CD2">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
-                  <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD2\/</Path>
-                  <Path Filename="CD3">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
                   <Path Filename="..">C:\music\Metallica\2016. Hardwired... To Self-Destruct\CD3\/</Path>
                   <Path Filename="CD3">C:\music\Metallica\2016. Hardwired... To Self-Destruct\/</Path>
                   <Path Filename="2016. Hardwired... To Self-Destruct">C:\music\Metallica\/</Path>
@@ -300,7 +274,33 @@
                   <Path Filename="AMV">z:\/</Path>
                   <Path Filename="Desktop">/home/qa/</Path>
                   <Path Filename="..">/home/qa/Desktop/</Path>
-                  <Path Filename="Videos">/home/qa/</Path>
+                  <Path Filename="snap">/home/qa/</Path>
+                  <Path Filename="firefox">/home/qa/snap/</Path>
+                  <Path Filename="..">/home/qa/snap/firefox/</Path>
+                  <Path Filename="..">/home/qa/snap/</Path>
+                  <Path Filename="Downloads">/home/qa/</Path>
+                  <Path Filename="Telegram Desktop">/home/qa/Downloads/</Path>
+                  <Path Filename="..">/home/qa/Downloads/Telegram Desktop/</Path>
+                  <Path Filename="..">/home/qa/Downloads/</Path>
+                  <Path Filename="Documents">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Documents/</Path>
+                  <Path Filename="Desktop">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Desktop/</Path>
+                  <Path Filename="Music">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Music/</Path>
+                  <Path Filename="Pictures">/home/qa/</Path>
+                  <Path Filename="..">/home/qa/Pictures/</Path>
+                  <Path Filename="projects">/home/qa/</Path>
+                  <Path Filename="personal">/home/qa/projects/</Path>
+                  <Path Filename="..">/home/qa/projects/personal/</Path>
+                  <Path Filename="work">/home/qa/projects/</Path>
+                  <Path Filename="..">/home/qa/projects/work/</Path>
+                  <Path Filename="..">/home/qa/projects/</Path>
+                  <Path Filename="projects">/home/qa/</Path>
+                  <Path Filename="personal">/home/qa/projects/</Path>
+                  <Path Filename="..">/home/qa/projects/personal/</Path>
+                  <Path Filename="..">/home/qa/projects/</Path>
+                  <Path Filename="projects">/home/qa/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -321,7 +321,7 @@
     <UseConfigInProgramDir>False</UseConfigInProgramDir>
   </Configuration>
   <Language>
-    <POFileName>doublecmd.ru.po</POFileName>
+    <POFileName>doublecmd.en.po</POFileName>
   </Language>
   <Behaviours>
     <GoToRoot>True</GoToRoot>
