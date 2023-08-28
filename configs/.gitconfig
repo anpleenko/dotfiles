@@ -4,6 +4,8 @@
     path = .gitconfig-work
 [core]
     editor = vim
+    # editor = code --wait
+    # editor = subl -n -w
     excludesfile = ~/.gitignore
     eol = lf
     autocrlf = input
