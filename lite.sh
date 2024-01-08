@@ -6,6 +6,9 @@
 # устанавливаем конфигурацию для vim
 ./scripts/vim-config.sh
 
+# устанавливаем midnight commander
+./scripts/mc.sh
+
 # генерируем SSH ключ
 ./scripts/ssh-key.sh
 
