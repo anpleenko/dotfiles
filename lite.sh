@@ -9,12 +9,8 @@
 # генерируем SSH ключ
 ./scripts/ssh-key.sh
 
-
 # устанавливаем tmux
-cd scripts/tmux
-./install.sh
-cd ..
-cd ..
+cd scripts/tmux && ./install.sh && cd .. && cd ..
 
 # устанавливаем zsh с конфигом oh-my-zsh
 ./scripts/zsh.sh
