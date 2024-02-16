@@ -9,7 +9,6 @@ sudo apt update -y \
 
 sudo apt install -y \
   curl \
-  ffmpeg \
   git \
   htop \
   make \
