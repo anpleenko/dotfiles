@@ -8,25 +8,21 @@ sudo apt update -y \
   && sudo apt-get autoclean -y
 
 sudo apt install -y \
-  autoconf  \
-  autofs  \
-  cifs-utils \
   curl \
-  default-jdk \
-  default-jre \
   ffmpeg \
   git \
   htop \
   make \
-  maven \
   mc \
   tar \
   tmux \
-  ttfautohint \
   unzip \
   vim  \
   wget \
   zip
+
+# устанавливаем утилиты для работы с файловыми системами
+# sudo apt install -y autofs cifs-utils
 
 # нужно для запуска appimage программ
 sudo apt install libfuse2
