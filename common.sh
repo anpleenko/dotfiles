@@ -42,7 +42,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 timedatectl set-local-rtc 1 --adjust-system-clock
 
 # создаем ssh ключ
-ssh-keygen -q -t ed25519 -C "$(whoami)@$(hostname)" -N '' -f ~/.ssh/id_ed25519 <<<y 2>&1 >/dev/null
+ssh-keygen -q -t rsa -C "$(whoami)@$(hostname)" -N '' -f ~/.ssh/id_rsa <<<y >/dev/null 2>&1
 
 # устанавливаем tmux-plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
