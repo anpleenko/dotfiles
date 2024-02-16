@@ -24,7 +24,7 @@ sudo apt install -y \
 # sudo apt install -y autofs cifs-utils
 
 # нужно для запуска appimage программ
-sudo apt install libfuse2
+# sudo apt install libfuse2
 
 ./install_allure.sh
 ./install_git-lfs.sh
