@@ -18,21 +18,21 @@ sudo apt install -y \
 # работа с HEIC
 # пример запуска
 # for file in *.HEIC; do convert $file ${file%.HEIC}.png && rm $file; done
-sudo apt install -y \
-  heif-gdk-pixbuf \
-  heif-thumbnailer \
-  libheif1:amd64 \
-  gimagereader \
-  gpicview \
-  converseen \
-  imagemagick
+# sudo apt install -y \
+#   heif-gdk-pixbuf \
+#   heif-thumbnailer \
+#   libheif1:amd64 \
+#   gimagereader \
+#   gpicview \
+#   converseen \
+#   imagemagick
 
 # obs-studio 
-sudo add-apt-repository --yes ppa:obsproject/obs-studio
-sudo apt update -y && sudo apt install -y obs-studio
+# sudo add-apt-repository --yes ppa:obsproject/obs-studio
+# sudo apt update -y && sudo apt install -y obs-studio
 
-./install_sublime_products.sh
-./install_kitty.sh
+# ./install_sublime_products.sh
+# ./install_kitty.sh
 
 mkdir -pv ~/.local/share/fonts \
  && wget -c https://github.com/anpleenko/linux-fonts/releases/download/latest/linux-fonts.tar -O - | tar -xz -C ~/.local/share/fonts
