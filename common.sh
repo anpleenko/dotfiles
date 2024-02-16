@@ -29,7 +29,7 @@ sudo apt install -y \
 # ./install_allure.sh
 # ./install_git-lfs.sh
 ./install_docker.sh
-./install_python_3.sh
+# ./install_python_3.sh
 ./install_zsh.sh
 
 # copy configs
