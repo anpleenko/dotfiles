@@ -26,8 +26,8 @@ sudo apt install -y \
 # нужно для запуска appimage программ
 # sudo apt install libfuse2
 
-./install_allure.sh
-./install_git-lfs.sh
+# ./install_allure.sh
+# ./install_git-lfs.sh
 ./install_docker.sh
 ./install_python_3.sh
 ./install_zsh.sh
