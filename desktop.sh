@@ -34,6 +34,9 @@ sudo apt install -y \
 # ./install_sublime_products.sh
 # ./install_kitty.sh
 
+# устанавливаем использование локального времени
+timedatectl set-local-rtc 1 --adjust-system-clock
+
 mkdir -pv ~/.local/share/fonts \
  && wget -c https://github.com/anpleenko/linux-fonts/releases/download/latest/linux-fonts.tar -O - | tar -xz -C ~/.local/share/fonts
 
