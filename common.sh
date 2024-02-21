@@ -38,9 +38,6 @@ yes | cp -vfa configs/. ~/
 # увеличиваем колличество filewatchers
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
-# устанавливаем использование локального времени
-timedatectl set-local-rtc 1 --adjust-system-clock
-
 # создаем ssh ключ
 ssh-keygen -q -t rsa -C "$(whoami)@$(hostname)" -N '' -f ~/.ssh/id_rsa <<<y >/dev/null 2>&1
 
