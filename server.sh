@@ -2,6 +2,8 @@
 
 ./common.sh
 
+sudo timedatectl set-timezone Europe/Moscow
+
 # sudo apt install -y \
 #   build-essential \
 #   ca-certificates \
