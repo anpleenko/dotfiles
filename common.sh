@@ -23,9 +23,6 @@ sudo apt install -y \
 # устанавливаем утилиты для работы с файловыми системами
 # sudo apt install -y autofs cifs-utils nfs-common
 
-# нужно для запуска appimage программ
-# sudo apt install libfuse2
-
 # ./install_allure.sh
 # ./install_git-lfs.sh
 ./install_docker.sh
