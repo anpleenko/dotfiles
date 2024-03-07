@@ -21,7 +21,7 @@ sudo apt install -y \
   zip
 
 # устанавливаем утилиты для работы с файловыми системами
-# sudo apt install -y autofs cifs-utils
+# sudo apt install -y autofs cifs-utils nfs-common
 
 # нужно для запуска appimage программ
 # sudo apt install libfuse2
