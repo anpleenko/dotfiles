@@ -34,6 +34,9 @@ sudo apt install -y \
 # ./install_sublime_products.sh
 # ./install_kitty.sh
 
+# нужно для запуска appimage программ
+# sudo apt install libfuse2
+
 # устанавливаем использование локального времени
 timedatectl set-local-rtc 1 --adjust-system-clock
 
