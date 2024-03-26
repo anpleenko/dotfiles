@@ -21,7 +21,7 @@ sudo apt install -y \
   zip
 
 # устанавливаем утилиты для работы с файловыми системами
-# sudo apt install -y autofs cifs-utils nfs-common
+# sudo apt install -y autofs nfs-common
 
 # ./install_allure.sh
 # ./install_git-lfs.sh
