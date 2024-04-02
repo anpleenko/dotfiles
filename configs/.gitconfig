@@ -1,7 +1,3 @@
-[include]
-    path = ~/.gitconfig-personal.conf
-[includeIf "gitdir/i:projects/work/"]
-    path = ~/.gitconfig-work.conf
 [core]
     editor = vim
     # editor = code --wait
