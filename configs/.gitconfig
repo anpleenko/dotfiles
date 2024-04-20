@@ -7,9 +7,6 @@
     autocrlf = input
 [fetch]
     prune = true
-[pull]
-    rebase = false
-    ff = yes
 [push]
     default = current
 [filter "lfs"]
@@ -19,11 +16,4 @@
     required = true
 [init]
     defaultBranch = main
-[merge]
-    ff = no
-[diff]
-    tool = meld
-[difftool]
-    prompt = false
-[difftool "meld"]
-    cmd = meld "$LOCAL" "$REMOTE"
+
