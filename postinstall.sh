@@ -8,4 +8,3 @@ tmux -V
 # python --version
 # pip --version
 docker --version
-docker-compose --version
