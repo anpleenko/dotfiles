@@ -36,7 +36,7 @@ yes | cp -vfa configs/. ~/
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
 # создаем ssh ключ
-ssh-keygen -q -t rsa -C "$(whoami)@$(hostname)" -N '' -f ~/.ssh/id_rsa <<<y >/dev/null 2>&1
+ssh-keygen -o -a 100 -t ed25519 -N '' -f ~/.ssh/id_ed25519 -C "$(whoami)@$(hostname)" <<<y >/dev/null 2>&1
 
 # устанавливаем tmux-plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
