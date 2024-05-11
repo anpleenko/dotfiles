@@ -1,4 +1,4 @@
-### Install configs for Desktop (Ubuntu 22.04)
+### Install configs for Desktop (Ubuntu 22.04/24.04)
 
 ```bash
 mkdir -p ~/dotfiles \
@@ -9,7 +9,7 @@ mkdir -p ~/dotfiles \
  && rm -rf ~/dotfiles
 ```
 
-### Install configs for Server (Ubuntu 22.04)
+### Install configs for Server (Ubuntu 22.04/24.04)
 
 ```bash
 mkdir -p ~/dotfiles \
