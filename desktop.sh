@@ -10,6 +10,7 @@ sudo apt install -y \
   gthumb \
   rhythmbox \
   simplescreenrecorder \
+  gnome-sushi \
   synaptic \
   tilix \
   vlc \
