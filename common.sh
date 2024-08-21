@@ -11,6 +11,7 @@ sudo apt install -y \
   curl \
   git \
   htop \
+  ncdu \
   make \
   mc \
   tar \
