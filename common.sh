@@ -19,7 +19,8 @@ sudo apt install -y \
   unzip \
   vim  \
   wget \
-  zip
+  zip \
+  zsh
 
 # устанавливаем утилиты для работы с файловыми системами
 # sudo apt install -y autofs nfs-common
