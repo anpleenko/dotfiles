@@ -109,7 +109,6 @@ fi
 alias cp="cp -iv"
 alias mv="mv -iv"
 alias mkdir="mkdir -pv"
-alias ll="ls -al"
 alias sources="source ~/.zshrc"
 del() { rm -rf "$*" }
 alias c="clear"
