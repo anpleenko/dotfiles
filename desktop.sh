@@ -16,6 +16,14 @@ sudo apt install -y \
   vlc \
   python3-nautilus
 
+# sudo apt install -y \
+#   doublecmd-gtk \
+#   rhythmbox \
+#   simplescreenrecorder \
+#   synaptic \
+#   tilix \
+#   vlc 
+
 # работа с HEIC
 # пример запуска
 # for file in *.HEIC; do convert $file ${file%.HEIC}.png && rm $file; done
