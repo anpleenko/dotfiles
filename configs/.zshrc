@@ -93,6 +93,9 @@ fi
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR='vim'
+export VISUAL='code'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
