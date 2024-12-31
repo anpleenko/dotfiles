@@ -1,8 +1,4 @@
 #!/bin/bash
 
-sudo apt install -y python3-pip
-
-# sudo ln -s /usr/bin/python3 /usr/local/bin/python
-# sudo ln -s /usr/bin/pip3 /usr/local/bin/pip
-
-sudo apt install pipx
+sudo apt install -y --no-install-recommends python3 python3-pip
+sudo apt install -y python-is-python3 pipx
