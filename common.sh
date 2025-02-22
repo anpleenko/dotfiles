@@ -20,6 +20,8 @@ sudo apt install -y \
   vim  \
   wget \
   zip \
+  p7zip \
+  unrar \ 
   zsh
 
 # устанавливаем утилиты для работы с файловыми системами
