@@ -14,6 +14,7 @@ sudo apt install -y \
   synaptic \
   tilix \
   vlc \
+  ffmpegthumbnailer \
   python3-nautilus
 
 # sudo apt install -y \
