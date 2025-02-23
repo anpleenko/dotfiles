@@ -21,7 +21,7 @@ sudo apt install -y \
   wget \
   zip \
   p7zip \
-  unrar \ 
+  unrar \
   zsh
 
 # устанавливаем утилиты для работы с файловыми системами
