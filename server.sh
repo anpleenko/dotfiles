@@ -15,6 +15,6 @@ sudo timedatectl set-timezone Europe/Moscow
 #   gnupg2 \
 #   lsb-release \
 #   openssl \
-#   xdg-utils 
+#   xdg-utils
 
 ./postinstall.sh

@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # обновляем дистрибутив
-sudo apt update -y \
-  && sudo apt upgrade -y \
-  && sudo apt dist-upgrade -y \
-  && sudo apt-get autoremove -y \
-  && sudo apt-get autoclean -y
+sudo apt update -y &&
+  sudo apt upgrade -y &&
+  sudo apt dist-upgrade -y &&
+  sudo apt-get autoremove -y &&
+  sudo apt-get autoclean -y
 
 sudo apt install -y \
   curl \
@@ -17,7 +17,7 @@ sudo apt install -y \
   tar \
   tmux \
   unzip \
-  vim  \
+  vim \
   wget \
   zip \
   p7zip \

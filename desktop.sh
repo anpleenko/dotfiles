@@ -15,7 +15,9 @@ sudo apt install -y \
   tilix \
   vlc \
   ffmpegthumbnailer \
-  python3-nautilus
+  python3-nautilus \
+  gparted \
+  timeshift
 
 # sudo apt install -y \
 #   doublecmd-gtk \
@@ -23,7 +25,7 @@ sudo apt install -y \
 #   simplescreenrecorder \
 #   synaptic \
 #   tilix \
-#   vlc 
+#   vlc
 
 # работа с HEIC
 # пример запуска
@@ -37,7 +39,7 @@ sudo apt install -y \
 #   converseen \
 #   imagemagick
 
-# obs-studio 
+# obs-studio
 # sudo add-apt-repository --yes ppa:obsproject/obs-studio
 # sudo apt update -y && sudo apt install -y obs-studio
 
@@ -50,7 +52,7 @@ sudo apt install -y \
 # устанавливаем использование локального времени
 timedatectl set-local-rtc 1 --adjust-system-clock
 
-mkdir -pv ~/.local/share/fonts \
- && wget -c https://github.com/anpleenko/linux-fonts/releases/download/latest/linux-fonts.tar -O - | tar -xz -C ~/.local/share/fonts
+mkdir -pv ~/.local/share/fonts &&
+  wget -c https://github.com/anpleenko/linux-fonts/releases/download/latest/linux-fonts.tar -O - | tar -xz -C ~/.local/share/fonts
 
 ./postinstall.sh
