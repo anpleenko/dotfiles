@@ -49,6 +49,9 @@ sudo apt install -y \
 # нужно для запуска appimage программ
 # sudo apt install libfuse2
 
+# увеличиваем количества filewatchers
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
 # устанавливаем использование локального времени
 timedatectl set-local-rtc 1 --adjust-system-clock
 

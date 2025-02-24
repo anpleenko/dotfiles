@@ -36,9 +36,6 @@ sudo apt install -y \
 # copy configs
 yes | cp -vfa configs/. ~/
 
-# увеличиваем колличество filewatchers
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
-
 # создаем ssh ключ
 ssh-keygen -o -a 100 -t ed25519 -N '' -f ~/.ssh/id_ed25519 -C "$(whoami)@$(hostname)" <<<y >/dev/null 2>&1
 
