@@ -3,7 +3,7 @@
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && wget https://github.com/anpleenko/dotfiles/releases/download/v27-02-2025-21h-15m-24s/dotfiles.tgz \
+ && wget https://github.com/anpleenko/dotfiles/releases/download/v28-02-2025-16h-04m-01s/dotfiles.tgz \
  && tar -zxvf dotfiles.tgz -C . \
  && ./desktop.sh \
  && rm -rf ~/dotfiles
@@ -14,7 +14,7 @@ mkdir -p ~/dotfiles \
 ```bash
 mkdir -p ~/dotfiles \
  && cd ~/dotfiles \
- && wget https://github.com/anpleenko/dotfiles/releases/download/v27-02-2025-21h-15m-24s/dotfiles.tgz \
+ && wget https://github.com/anpleenko/dotfiles/releases/download/v28-02-2025-16h-04m-01s/dotfiles.tgz \
  && tar -zxvf dotfiles.tgz -C . \
  && ./server.sh \
  && rm -rf ~/dotfiles
