@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# make ZSH the default shell
 # chsh -s $(which zsh)
 
 sudo apt install -y zsh
