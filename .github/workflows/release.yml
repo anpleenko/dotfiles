@@ -51,4 +51,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           keep-count: 5
-          keep-old-minor-releases: false
+          keep-old-minor-releases: true
+          keep-old-minor-releases-count: 1
