@@ -19,6 +19,9 @@ sudo apt install -y \
   gparted \
   timeshift
 
+# ubuntu change default terminal
+# sudo update-alternatives --config x-terminal-emulator
+
 # sudo apt install -y \
 #   doublecmd-gtk \
 #   rhythmbox \
