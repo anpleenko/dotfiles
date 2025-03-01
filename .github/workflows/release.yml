@@ -45,3 +45,9 @@ jobs:
           tag_name: v${{ env.date }}
           body_path: README.md
           files: artifacts/dotfiles.tgz
+          
+      - uses: actions/checkout@v3
+      - uses: Nats-ji/delete-old-releases@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          keep-count: 5
