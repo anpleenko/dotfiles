@@ -9,7 +9,6 @@ sudo apt install -y \
   gnome-tweaks \
   gthumb \
   rhythmbox \
-  simplescreenrecorder \
   gnome-sushi \
   synaptic \
   tilix \
