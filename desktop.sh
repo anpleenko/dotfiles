@@ -10,6 +10,7 @@ sudo apt install -y \
   gthumb \
   rhythmbox \
   gnome-sushi \
+  libfuse2 \
   synaptic \
   tilix \
   vlc \
@@ -47,9 +48,6 @@ sudo apt install -y \
 
 # ./install_sublime_products.sh
 # ./install_kitty.sh
-
-# нужно для запуска appimage программ
-# sudo apt install libfuse2
 
 # увеличиваем количества filewatchers
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
