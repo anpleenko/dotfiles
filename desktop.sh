@@ -5,19 +5,20 @@
 sudo apt install -y \
   chrome-gnome-shell \
   doublecmd-gtk \
+  ffmpegthumbnailer \
+  file-roller \
   gnome-shell-extension-manager \
-  gnome-tweaks \
-  gthumb \
-  rhythmbox \
   gnome-sushi \
+  gnome-tweaks \
+  gparted \
+  gthumb \
   libfuse2 \
+  python3-nautilus \
+  rhythmbox \
   synaptic \
   tilix \
-  vlc \
-  ffmpegthumbnailer \
-  python3-nautilus \
-  gparted \
-  timeshift
+  timeshift \
+  vlc
 
 # ubuntu change default terminal
 # sudo update-alternatives --config x-terminal-emulator
